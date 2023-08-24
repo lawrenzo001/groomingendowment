@@ -1,0 +1,160 @@
+
+
+@media (max-width: 1440px) {
+    header nav .rect {
+        height: 100%;
+        top: -29rem;
+    }
+
+    header nav .detbx {
+        height: 100%;
+        top: -33.5rem;
+
+    }
+
+    header nav .detbx .logo {
+        margin-right: 5em;
+        height: 85%;
+    
+    }
+
+    header nav .detbx .logo img{
+        margin-right: 0.1em;
+        height: 100%;
+
+    }
+
+    header nav .detbx .logo h3{
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        line-height: 1.2em;
+
+    }
+
+    header nav .detbx .basicnav li {
+        letter-spacing: 1px;
+        font-size: 1rem;
+        padding: 0 1em 0 1em;
+    
+
+    }
+
+    header nav .detbx .signup {
+        display: block;
+        width: 15%;
+        margin-left: 1em;
+        font-size: 1.1rem;
+        height: 88%;
+        left: 1%;
+        text-align: center;
+        box-sizing: border-box;
+       
+    }
+
+    header nav .detbx .signup a{
+        margin: 0 auto;
+        width: auto;
+    }
+
+
+    .welnote {
+        width: 45%;
+        height: 25%;
+        bottom: 25em;
+        box-sizing: border-box;
+        bottom: 20em;
+
+    }
+
+    .welnote .headtxt {
+        font-size: 1.1rem;
+        letter-spacing: 0.7px;
+        line-height: 1.2em;
+
+    }
+
+    .welnote h1 {
+        font-size: 2.5rem;
+
+    }
+
+    .split-col {
+        height: 27rem;
+        top: -1.8em;
+
+    }
+
+    .split-col .left {
+        height: inherit;
+    }
+
+    .split-col .left .text-container {
+        height: 77%;
+
+
+    }
+
+
+    .split-col .left .text-container .grant1 {
+        top: 2em;
+        font-size: 1.4rem;
+    }
+
+    .split-col .left .text-container .grant2 {
+        top: 5em;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+
+
+    }
+
+
+    .split-col .left .apply {
+        top: 7em;
+        font-size: 0.9rem;
+        font-weight: 500;
+        border-radius: 13px;
+
+    }
+
+
+    .reach {
+        top: -12.9rem;
+        height: 28em;
+    }
+
+    .reach .rcontainer {
+        width: 70%;
+    }
+
+    .reach .rcontainer .sheart {
+        width: 6%;
+
+    }
+
+    .reach .rcontainer .progress {
+        font-size: 2rem;
+        font-weight: 800;
+
+    }
+
+    .reach .rcontainer .explan {
+        position: relative;
+        top: 22%;
+
+
+    }
+
+    .reach .rcontainer .explan p{
+        font-size: 1rem;
+        line-height: 1.5em;
+    }
+
+    .body {
+        top: -16rem;
+    }
+
+
+
+
+}
