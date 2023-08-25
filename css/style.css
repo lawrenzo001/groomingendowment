@@ -19,7 +19,7 @@ header nav {
     position: relative;
     height: 4.5rem;
     box-sizing: border-box;
-    justify-content: center;
+
 }
 
 
@@ -51,7 +51,6 @@ header nav .detbx {
     transform: translate(-50%, -50%);
     width: 80%;
     padding: 0.8em;
-    justify-content: center;
     align-items: center;
     z-index: 9999;
     top: -65.9rem;
@@ -77,7 +76,8 @@ header nav .detbx .logo img{
 
 }
 
-header nav .detbx .logo h3{
+header nav .detbx .logo .minget{
+    position: relative;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     z-index: 9999;
@@ -120,7 +120,6 @@ header nav .detbx .signup {
     box-sizing: border-box;
     border-radius: 50px;
     text-align: center;
-    justify-content: center;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
@@ -137,17 +136,13 @@ header nav .detbx .signup a{
 
 .welnote {
     position: relative;
-    padding: 0 auto;
     width: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    bottom: 20em;
+    margin: auto;
     text-align: center;
     text-transform: capitalize;
     box-sizing: border-box;
     height: 19%;
-    bottom: 35em;
+    bottom: 40em;
 
 }
 
@@ -157,15 +152,17 @@ header nav .detbx .signup a{
     line-height: 1.5em;
     letter-spacing: 1px;
     font-size: 1.6rem;
+    color: #fff;
     
 }
 
 
-.welnote h1{
+.welnote .getrust{
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 3.8rem;
+    font-size: 4rem;
+    color: #fff;
     top: 0.5em;
 
 
@@ -319,7 +316,7 @@ header nav .detbx .signup a{
 .reach .rcontainer .progress {
     position: relative;
     font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 800;
     padding: 0.2em;
     margin: auto;
@@ -362,18 +359,18 @@ header nav .detbx .signup a{
 
 .body {
     position: relative;
-    height: 900rem;
+    height: 680rem;
     width: 100%;
-    background-color: #0d081d;
+    background-color: #0d091e;
     top: -21rem;
     z-index: -2;
-    border-top: 5px solid brown;
+
 }
 
 
 .body .cohort {
     position: relative;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: 'Poppins', sans-serif;
     top: 20.8rem;
     text-align: center;
@@ -498,13 +495,15 @@ header nav .detbx .signup a{
 .body .square .glog img {
     width: 100%;
     height: 100%;
+
 }
+
 
 .body .square .get {
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.8rem;
     text-align: center;
     color: #fff;
     text-transform: capitalize;
@@ -547,6 +546,7 @@ header nav .detbx .signup a{
     top: 7%;
     text-transform: capitalize;
     box-sizing: border-box;
+
 }
 
 .body .grant-img .tri-img-container {
@@ -582,7 +582,6 @@ header nav .detbx .signup a{
     position: relative;
     width: 80%;
     margin: auto;
-    /* border: 1px solid white; */
     height: 85rem;
     box-sizing: border-box;
     top: 70rem;
@@ -606,7 +605,6 @@ header nav .detbx .signup a{
     display: flex;
     width: 100%;
     height: 33rem;
-    /* border: 1px solid white; */
     top: 15%;
 
 
@@ -617,7 +615,6 @@ header nav .detbx .signup a{
     position: relative;
     width: 32%;
     height: 100%;
-    /* border: 1px solid white; */
     box-sizing: border-box;
     margin: auto;
     border-radius: 30px;
@@ -649,23 +646,22 @@ header nav .detbx .signup a{
     display: flex;
     width: 100%;
     height: 33rem;
-    /* border: 1px solid white; */
     top: 17%;
 
 }
 
 
-body .testimonial {
+.body .testimonial {
     position: relative;
     width: 100%;
-    height: 60rem;
-    border: 1px solid white;
-    top: 80rem;
+    height: 47rem;
+    top: 90rem;
     box-sizing: border-box;
+    
 
 }
 
-body .testimonial .textimony {
+.body .testimonial .textimony {
     position: relative;
     text-align: center;
     font-size: 4rem;
@@ -673,5 +669,427 @@ body .testimonial .textimony {
     font-family: 'Poppins', sans-serif;
     top: 5%;
     color: #fff;
+
+}
+
+
+.body .testimonial .feed-slider {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 33rem;
+    top: 20%;
+
+}
+
+.body .testimonial .feed-slider .feed1 {
+    position: relative;
+    height: 100%;
+    width: 48rem;
+    box-sizing: border-box;
+    background-color: #060116;
+    margin-left: 4em;
+    border-radius: 30px;
+}
+
+
+.body .testimonial .feed-slider .feed1 .userfeed {
+    position: relative;
+    display: flex;
+    height: 70%;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+.body .testimonial .feed-slider .feed1 .userfeed .colon {
+    position: relative;
+    font-size: 8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin: 0.6em;
+    color: #a407c2;
+
+
+}
+
+.body .testimonial .feed-slider .feed1 .userfeed p{
+    font-size: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-top: 2em;
+    margin-right: 1em;
+    line-height: 1.2em;
+}
+
+
+.body .testimonial .feed-slider .feed1 .user {
+    position: relative;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    align-items: center;
+
+
+}
+
+.body .testimonial .feed-slider .feed1 .user .userpic {
+    position: relative;
+    margin-left: 4.4em;
+    border-radius: 50%;
+    width: 5.3rem;
+
+}
+
+.body .testimonial .feed-slider .feed1 .user .dash {
+    position: relative;
+    height: 0.3em;
+    width: 4.5em;
+    background-color: #fff;
+    margin-left: 4em;
+    
+}
+
+.body .testimonial .feed-slider .feed1 .user .username {
+    position: relative;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-left: 0.7em;
+
+}
+
+
+.body .gallery {
+    position: relative;
+    height: 170rem;
+    width: 100%;
+    top: 100rem;
+
+}
+
+.body .gallery .galltext {
+    position: relative;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    top: 5%;
+
+}
+
+.body .gallery .gallimages {
+    position: relative;
+    width: 80%;
+    height: 85.5%;
+    margin: auto;
+    top: 10%;
+    box-sizing: border-box;
+
+}
+
+.body .gallery .gallimages .top {
+    position: relative;
+    display: flex;
+    height: 68.9rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3em;
+
+} 
+
+.body .gallery .gallimages .top img{
+    width: 38em;
+
+}
+
+
+.body .gallery .gallimages .top .rite {
+    position: relative;
+    margin: 0 0 3em 3em;
+    box-sizing: border-box;
+    width: 95rem;
+    height: 73rem;
+
+}
+
+
+
+.body .gallery .gallimages .top .rite .up {
+    position: relative;
+    display: flex;
+    height: 33rem;
+    box-sizing: border-box;
+
+}
+
+.body .gallery .gallimages .top .rite .up .imgb {
+    width: 55.5em;
+    margin-right: 3em;
+    height: 100%;
+
+}
+
+.body .gallery .gallimages .top .rite .up .imgc{
+    width: 30em;
+    height: 100%;
+}
+
+
+
+.body .gallery .gallimages .top .rite .dwn {
+    position: relative;
+    display: flex;
+    top: 3.9%;
+    height: 33rem;
+    box-sizing: border-box;
+
+
+}
+
+.body .gallery .gallimages .top .rite .dwn .imgd {
+    position: relative;
+    height: 100%;
+    width: 30em;
+
+}
+
+
+.body .gallery .gallimages .top .rite .dwn .imge {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 55.5em;
+    margin-left: 3em;
+
+
+}
+
+.body .gallery .gallimages .mid {
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    box-sizing: border-box;
+    margin-bottom: 3em;
+}
+
+.body .gallery .gallimages .mid .imgf {
+    position: relative;
+    width: 35.8em;
+    height: 100%;
+}
+
+.body .gallery .gallimages .mid .imgg {
+    position: relative;
+    width: 88.2em;
+    height: 100%;
+    margin-left: 3em;
+
+}
+
+.body .gallery .gallimages .bttom {
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    box-sizing: border-box;
+
+}
+
+
+
+.body .gallery .gallimages .bttom .imgh {
+    position: relative;
+    width: 62em;
+    height: 100%;
+    margin-right: 3em;
+
+}
+
+.body .gallery .gallimages .bttom .imgi {
+    position: relative;
+    width: 62em;
+    height: 100%;
+
+}
+
+.body .questions {
+    position: relative;
+    width: 100%;
+    height: 70rem;
+    border: 1px solid red;
+    top: 110rem;
+
+}
+
+.body .questions .faq {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    top: 5%;
     text-transform: capitalize;
+
+}
+
+
+
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 90rem;
+    background-color: #0d091e;
+    border: 1px solid white;
+    top: -25rem;
+}
+
+footer .partners {
+    position: relative;
+    width: 100%;
+    height: 23rem;
+    border: 1px solid green;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50px;
+
+}
+
+footer .partners .partext {
+    position: relative;
+    width: 25%;
+    height: 6.5rem;
+    background-color: #a407c2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1.6em;
+    top: -15%;
+
+}
+
+footer .partners .ourpart {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+footer .partners .partner-icon {
+    position: relative;
+    display: flex;
+    
+}
+
+footer .partners .partner-icon img {
+    position: relative;
+    margin: auto;
+    width: 18em;
+
+}
+
+footer .partners .partner-icon .gc {
+    position: relative;
+    width: 30em;
+}
+
+footer .partners .partner-icon .kn {
+    position: relative;
+    width: 28em;
+}
+
+
+footer .partners .partner-icon .k {
+    position: relative;
+    width: 10em;
+}
+
+footer .contact {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #060116;
+    border: 1px solid green;
+    top: 10rem;
+    box-sizing: border-box;
+
+}
+
+footer .contact .contactus {
+    position: relative;
+    width: 40%;
+    height: 20rem;
+    border: 1px solid white;
+    left: 13%;
+    top: 7%;
+    
+
+}
+
+
+footer .contact .contactus .gel {
+    position: relative;
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    height: 5rem;
+    box-sizing: border-box;
+    border: 1px solid white;
+   
+}
+
+footer .contact .contactus .gel img{
+    margin-right: 0.5em;
+
+}
+
+
+
+footer .contact .contactus .gel .ge-t{
+    position: relative;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    z-index: 9999;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+    padding: auto;
+
+}
+
+footer .contact .contactus .about {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+
+}
+footer .contact .contactus .about ul {
+    position: relative;
+    display: flex;
+    border: 1px solid white;
+    top: 7rem;
+
+}
+
+footer .contact .contactus .about ul li{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 2em 0.8em 0;
+
+}
+
+footer .contact .contactus .about ul li a{
+    color: #fff;
+    text-decoration: none;
 }
