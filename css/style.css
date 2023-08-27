@@ -111,12 +111,16 @@ header nav .detbx .basicnav li a{
     color: #fff;
 }
 
+header nav .detbx .basicnav li a:hover{
+    color: #a407c2;
+}
+
 header nav .detbx .signup {
     position: relative;
     width: 13%;
     background: linear-gradient(to right, #d15cb3, #3f48cc);
     padding: 0.9em;
-    margin-left: 4em;
+    margin-left: 5.5em;
     box-sizing: border-box;
     border-radius: 50px;
     text-align: center;
@@ -133,6 +137,14 @@ header nav .detbx .signup a{
     text-decoration: none;
 
 }
+
+header nav .detbx .signup:hover{
+    background: linear-gradient(to right, #3f48cc,  #d15cb3);
+    transition: 0.3s ease-in-out;
+    transform: scale(1.04);
+
+}
+
 
 .welnote {
     position: relative;
@@ -621,14 +633,10 @@ header nav .detbx .signup a{
    
 
 }
-
-.body .six-container .col-1 .box1 .heartsvg,
-.body .six-container .col-2 .box1 .heartsvg {
-    position: relative;
-    top: 4.7rem;
-    left: 3.9rem;
-    z-index: 9999;
-    width: 3em;
+.body .six-container .col-1 .box1:hover,
+.body .six-container .col-2 .box1:hover{
+    transform: scale(1.02);
+    transition: 0.5s ease-in;
 }
 
 
@@ -637,7 +645,7 @@ header nav .detbx .signup a{
     position: relative;
     width: 100%;
     height: 100%;
-    top: -3.2rem;
+
 }
 
 
@@ -799,7 +807,8 @@ header nav .detbx .signup a{
     box-sizing: border-box;
     margin-bottom: 3em;
 
-} 
+}
+
 
 .body .gallery .gallimages .top img{
     width: 38em;
@@ -915,6 +924,20 @@ header nav .detbx .signup a{
 
 }
 
+.body .gallery .gallimages .top img:hover,
+.body .gallery .gallimages .top .rite .up .imgb:hover,
+.body .gallery .gallimages .top .rite .up .imgc:hover,
+.body .gallery .gallimages .top .rite .dwn .imgd:hover,
+.body .gallery .gallimages .top .rite .dwn .imge:hover,
+.body .gallery .gallimages .mid .imgf:hover,
+.body .gallery .gallimages .mid .imgg:hover,
+.body .gallery .gallimages .bttom .imgh:hover,
+.body .gallery .gallimages .bttom .imgi:hover{
+    transform: scale(1.02);
+    transition: 0.5s ease-in-out;
+}
+
+
 .body .questions {
     position: relative;
     width: 100%;
@@ -942,9 +965,8 @@ header nav .detbx .signup a{
 footer {
     position: relative;
     width: 100%;
-    height: 90rem;
+    height: 69rem;
     background-color: #0d091e;
-    border: 1px solid white;
     top: -25rem;
 }
 
@@ -952,8 +974,7 @@ footer .partners {
     position: relative;
     width: 100%;
     height: 23rem;
-    border: 1px solid green;
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: #fff;
     border-radius: 50px;
@@ -1013,49 +1034,54 @@ footer .partners .partner-icon .k {
     width: 10em;
 }
 
-footer .contact {
+footer .bottom {
     position: relative;
-    display: flex;
     width: 100%;
-    height: 50%;
+    height: 36rem;
     background-color: #060116;
-    border: 1px solid green;
     top: 10rem;
     box-sizing: border-box;
 
 }
 
-footer .contact .contactus {
+
+footer .bottom .tophalf {
     position: relative;
-    width: 40%;
+    display: flex;
+    width: 75%;
     height: 20rem;
-    border: 1px solid white;
-    left: 13%;
-    top: 7%;
-    
+    margin: auto;
+    box-sizing: border-box;
+    top: 10%;
+
+}
+
+footer .bottom .tophalf .contact {
+    position: relative;
+    width: 70%;
+    height: 100%;
 
 }
 
 
-footer .contact .contactus .gel {
+footer .bottom .tophalf .contact .gel {
     position: relative;
     display: flex;
-    width: 15rem;
+    width: 13rem;
     justify-content: center;
     height: 5rem;
     box-sizing: border-box;
-    border: 1px solid white;
    
 }
 
-footer .contact .contactus .gel img{
+footer .bottom .tophalf .contact .gel img{
     margin-right: 0.5em;
 
 }
 
 
 
-footer .contact .contactus .gel .ge-t{
+footer .bottom .tophalf .contact .gel .ge-t{
     position: relative;
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -1068,28 +1094,156 @@ footer .contact .contactus .gel .ge-t{
 
 }
 
-footer .contact .contactus .about {
-    position: relative;
-    width: 100%;
-    height: 4rem;
 
-}
-footer .contact .contactus .about ul {
+footer .bottom .tophalf .contact .abt1,
+footer .bottom .tophalf .contact .abt2 {
     position: relative;
     display: flex;
-    border: 1px solid white;
-    top: 7rem;
+    top: 9rem;
 
 }
 
-footer .contact .contactus .about ul li{
+
+footer .bottom .tophalf .contact .abt1 li{
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
-    margin: 0 2em 0.8em 0;
+    margin: 0 4em 0.8em 0;
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+    
 
 }
 
-footer .contact .contactus .about ul li a{
+footer .bottom .tophalf .contact .abt2 li{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 6.3em 0.8em 0;
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+    
+
+}
+
+footer .bottom .tophalf .contact .abt1 li a,
+footer .bottom .tophalf .contact .abt2 li a{
     color: #fff;
     text-decoration: none;
+}
+
+footer .bottom .tophalf .contact .abt1 li a:hover,
+footer .bottom .tophalf .contact .abt2 li a:hover{
+    color: #a407c2;
+}
+
+footer .bottom .tophalf .contactus {
+    position: relative;
+    height: 100%;
+    width: 23%;
+    box-sizing: border-box;
+    left: 7%;
+
+}
+
+footer .bottom .tophalf .contactus .newsletter {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    box-sizing: border-box;
+    border: 1px solid red;
+
+}
+
+footer .bottom .tophalf .contactus .cntus {
+    position: relative;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+
+}
+
+footer .bottom .tophalf .contactus .addr {
+    position: relative;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    top: 5%;
+    line-height: 1.4em;
+    letter-spacing: 0.05em;
+    font-weight: 100;
+
+}
+
+
+footer .bottom .thin-bar {
+    position: relative;
+    width: 75%;
+    height: 0.1rem;
+    background-color: #51055C;
+    top: 6.1rem;
+    margin: auto;
+
+}
+
+footer .bottom .btmhalf {
+    position: relative;
+    display: flex;
+    width: 75%;
+    height: 7rem;
+    margin: auto;
+    box-sizing: border-box;
+    top: 7rem;
+    align-items: center;
+
+}
+
+footer .bottom .btmhalf .copyrt {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+}
+
+footer .bottom .btmhalf .copyrt .c{
+    position: relative;
+    display: flex;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    width: 2.3rem;
+    height: 2.3rem;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer .bottom .btmhalf .copyrt .cget {
+    position: relative;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0.4em;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+
+}
+
+footer .bottom .btmhalf .social {
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+/* footer .bottom .btmhalf .social li {
+
+} */
+
+footer .bottom .btmhalf .social li a{
+    color: #fff;
+    text-decoration: none;
+
 }
