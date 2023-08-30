@@ -1,82 +1,73 @@
  
 html, body {
     height: 100%;
-}
-
-.bkgd {
-    position: relative;
     width: 100%;
-
 }
 
 header {
     position: relative;
-    padding: 0 auto;
-    
+    max-height: 75rem;
+    height: 100%;
+    background-image: url("C:/Users/Lawrenzo/Documents/groomingendowment/assets/image 4.png");
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;  
 }
 
 header nav {
     position: relative;
-    height: 4.5rem;
+    max-width: 80%;
+    max-height: 55%;
+    height: 100%;
     box-sizing: border-box;
-
+    margin: auto;
+    bottom: -8rem;
 }
-
-
 
 header nav .rect {
     position: relative;
-    left: 50%;
-    height: 130%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+    margin: auto;
+    height: 17%;
+    width: 100%;
     border: 0.5px solid #808080;
     box-sizing: border-box;
     border-radius: 50px;
     background-color: rgba(255, 255 255, 0.2);
     backdrop-filter: blur(15px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    top: -60rem;
-
-
 }
-
-
 
 header nav .detbx {
     position: relative;
     display: flex;
     box-sizing: border-box;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    padding: 0.8em;
+    height: 17%;
+    width: 100%;
+    margin: auto;
+    padding: 0.9em;
     align-items: center;
     z-index: 9999;
-    top: -65.9rem;
-    height: 130%;
-
+    top: -17%;
+    border-radius: 50px;
 }
 
 header nav .detbx .logo {
     position: relative;
     display: flex;
     width: 20%;
+    align-items: center;
     justify-content: center;
     margin-right: 8em;
-    height: 90%;
-    box-sizing: border-box;
-   
+    height: 80%;
+    box-sizing: border-box;  
 }
 
-header nav .detbx .logo img{
+header nav .detbx .logo .getlo{
     margin-right: 0.5em;
-    width: 4rem;
-    height: 100%;
-
+    width: 3rem;
 }
 
-header nav .detbx .logo .minget{
+header nav .detbx .logo .miniget{
     position: relative;
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -85,25 +76,22 @@ header nav .detbx .logo .minget{
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.3em;
-
 }
-
 
 header nav .detbx .basicnav {
     position: relative;
     display: flex;
-
+    width: 55%;
 }
 
 header nav .detbx .basicnav li {
     text-transform: capitalize;
     justify-content: center;
-    font-weight: 100;
+    font-weight: 300;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    font-size: 1.4rem;
-    padding: 0 2.4em 0 2.3em;
-
+    font-size: 1.7rem;
+    margin: auto;
 }
 
 header nav .detbx .basicnav li a{
@@ -116,254 +104,218 @@ header nav .detbx .basicnav li a:hover{
 }
 
 header nav .detbx .signup {
-    position: relative;
+    position: absolute;
+    display: flex;
     width: 13%;
     background: linear-gradient(to right, #d15cb3, #3f48cc);
-    padding: 0.9em;
-    margin-left: 5.5em;
+    right: 1%;
     box-sizing: border-box;
     border-radius: 50px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.4rem;
-    height: 90%;
-
-
+    font-size: 1.3rem;
+    height: 60%;
+    transition: all 0.3s ease-in-out;
 }
 
 header nav .detbx .signup a{
     color: #fff;
     text-decoration: none;
-
 }
 
 header nav .detbx .signup:hover{
-    background: linear-gradient(to right, #3f48cc,  #d15cb3);
-    transition: 0.3s ease-in-out;
-    transform: scale(1.04);
-
+    background: linear-gradient(to right, #d15cb3,  #d15cb3);
+    transform: scale(1.02);
 }
 
-
-.welnote {
+header nav .welnote {
     position: relative;
-    width: 50%;
     margin: auto;
     text-align: center;
     text-transform: capitalize;
     box-sizing: border-box;
-    height: 19%;
-    bottom: 40em;
-
+    height: 35%;
+    top: 31%;
 }
 
-.welnote .headtxt {
+header nav .welnote .headtxt {
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-    line-height: 1.5em;
+    font-weight: 300;
+    line-height: 1.7em;
     letter-spacing: 1px;
     font-size: 1.6rem;
     color: #fff;
-    
 }
 
-
-.welnote .getrust{
+header nav .welnote .getrust{
     position: relative;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 4rem;
     color: #fff;
     top: 0.5em;
-
-
 }
 
-.split-col {
+section {
+    max-width: 100%;
+    height: 94rem;
+}
+
+section .split-col {
     position: relative;
     display: flex;
-    top: -5rem;
+    max-width: 100%;
     width: 100%;
-    height: 47rem;
- 
+    height: 100%;
+    max-height: 50%;
 }
 
-.split-col .left{
+section .split-col .left{
     position: relative;
     background: #e2adeb;
     width: 50%;
-    bottom: 11.2em;
-    z-index: -1;
+    height: 100%;
     border-right: 0.5em solid #210325;
     box-sizing: border-box;
-    height: inherit;
-
 }
 
 
-.split-col .left .text-container {
+section .split-col .left .text-container {
     position: relative;
     width: 60%;
-    height: 77%;
-    left: 25%;
-    margin-top: 2em;
-    transform: translate(-50, -50%);
+    height: 60%;
+    margin: auto;
     box-sizing: border-box;
-
+    font-family: 'Poppins', sans-serif;
+    top: 20%;
 }
 
-.split-col .left .text-container .grant1{
+section .split-col .left .text-container .grant1{
     position: relative;
     line-height: 1.5em;
-    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     text-transform: capitalize;
-    top: 3em;
     color: #210325;
     font-size: 2.4rem;
-
 }
 
-.split-col .left .text-container .grant2{
+section .split-col .left .text-container .grant2{
     position: relative;
-    font-family: 'Poppins', sans-serif;
-    top: 6em;
     text-transform: capitalize;
+    color: #210325;
     font-weight: 500;
     line-height: 1.3em;
     font-size: 1.8rem;
-
-
+    top: 1em;
 }
 
 
 
-.split-col .left .apply {
+section .split-col .left .text-container .apply {
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    display: flex;
     box-sizing: border-box;
-    padding: 0.8em 0 0.8em 0;
     font-size: 1.7rem;
     font-weight: 500;
     width: 32%;
-    height: 14%;
-    top: 8em;
+    height: 20%;
+    top: 2.5em;
     background-color: #aa00c0;
-    text-transform: capitalize;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     border-radius: 25px;
+    transition: all 0.3s ease-in-out;
     
 
 }
 
 
-.split-col .left .apply a{
+section .split-col .left .text-container .apply a{
     text-decoration: none;
     color: #fff;
-    
 }
 
+section .split-col .left .text-container .apply:hover{
+    background-color: #e2adeb;
+    border: 1px solid #aa00c0;
+}
 
-.split-col .right {
-    position: relative;
-    bottom: 11.2em;
+section .split-col .left .text-container .apply a:hover{
+    color: #210325;
+}
+
+section .split-col .right {
     box-sizing: border-box;
     width: 50%;
-    height: inherit;
-    z-index: -2;
-
-
+    height: 100%;
 }
 
-.split-col .right img{
+section .split-col .right img{
     width: 100%;
     height: 100%;
 
 }
 
 
-.reach {
+section .reach {
     position: relative;
     width: 100%;
-    height: 47rem;
-    top: -16rem;
+    height: 50%;
     box-sizing: border-box;
-
 }
 
-.reach .curve {
+section .reach .curve {
     position: relative;
     width: 100%;
     height: 100%;
 
 }
 
-.reach .rcontainer {
+section .reach .rcontainer {
     position: relative;
-    width: 60%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
+    top: -75%;
+}
+
+section .reach .rcontainer .sheart {
+    width: 5.5%;
     margin: auto;
-    top: -100%;
-
-}
-
-.reach .rcontainer .sheart {
-    position: relative;
-    width: 8%;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, 0);
     box-sizing: border-box;
-
 }
 
-.reach .rcontainer .sheart img{
-    position: relative;
+section .reach .rcontainer .sheart img{
     width: 100%;
     height: 100%;
-
 }
 
-.reach .rcontainer .progress {
-    position: relative;
+section .reach .rcontainer .progress {
     font-family: 'Poppins', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 800;
+    font-size: 4rem;
+    font-weight: 700;
     padding: 0.2em;
     margin: auto;
     text-transform: capitalize;
     color: #210325;
     width: 100%;
-    top: 20%;
     text-align: center;
     box-sizing: border-box;
-
-
-
 }
 
-
-.reach .rcontainer .explan {
-    position: relative;
-    height: 25%;
+section .reach .rcontainer .explan {
+    height: fit-content;
+    width: 100%;
     padding: 1.2em;
-    margin: auto;
-    border: 2px solid white;
-    top: 25%;
-    text-align: center;
     box-sizing: border-box;
-
-
 }
 
 
-.reach .rcontainer .explan p{
-    position: relative;
+section .reach .rcontainer .explan p{
     font-size: 1.7rem;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin: auto;
     line-height: 1.4em;
     box-sizing: border-box;
 
@@ -371,11 +323,12 @@ header nav .detbx .signup:hover{
 
 .body {
     position: relative;
+    max-height: 680rem;
     height: 680rem;
-    width: 100%;
+    max-width: 100%;
     background-color: #0d091e;
-    top: -21rem;
-    z-index: -2;
+    top: -6rem;
+    z-index: -1;
 
 }
 
@@ -384,52 +337,37 @@ header nav .detbx .signup:hover{
     position: relative;
     font-size: 4rem;
     font-family: 'Poppins', sans-serif;
-    top: 20.8rem;
+    top: 3%;
     text-align: center;
     width: auto;
     box-sizing: border-box;
-
-}
-
-.body .cohort .pcohort {
     color: #fff;
     text-transform: capitalize;
-    font-weight: 600;
-    
-
+    font-weight: 700;
 }
-
 
 .body .slider-container {
     position: relative;
     display: flex;
     width: 100%;
-    height: 24rem;
-    top: 28rem;
+    height: 4.4%;
+    top: 4%;
 }
-
 
 .body .slider-container img{
     position: relative;
-    width: 20%;
+    width: 24%;
     height: 100%;
-    margin: 0 2.5%;
-    
-
+    margin: auto;
 }
 
-
 .body .slider-container .more {
-    width: 20%;
+    width: 24%;
     height: 100%;
     border-radius: 20px;
     background: linear-gradient(to bottom, #ebcaf1, #51055C);
-    margin: 0 2.5%;
-
+    margin: auto;
 }
-
-
-
 
 
 /* .body .slider-container {
@@ -454,7 +392,6 @@ header nav .detbx .signup:hover{
     top: 50%;
     transform: translateX(-50%);
     font-size: 1.5em;
-
 }
 
 .prev {
@@ -465,7 +402,6 @@ header nav .detbx .signup:hover{
     right: 0.6em;
 }
 
-
 .dots {
     display: inline-block;
     width: 0.7em;
@@ -474,7 +410,6 @@ header nav .detbx .signup:hover{
     background-color: #bbb;
     margin: 0 0.2em;
     cursor: pointer;
-
 }
 
 .active {
@@ -482,34 +417,28 @@ header nav .detbx .signup:hover{
 } */
 
 
-
-
 .body .square {
     position: relative;
-    height: 80rem;
-    width: 75%;
+    height: 12%;
+    max-width: 78%;
     background-color: black;
     margin: auto;
     box-sizing: border-box;
     top: 50rem;
-
 }
 
 .body .square .glog {
     position: relative;
-    width: 7rem;
+    width: 9rem;
     margin: auto;
-    top: 35%;
+    top: 37%;
     box-sizing: border-box;
-
 }
 
 .body .square .glog img {
     width: 100%;
     height: 100%;
-
 }
-
 
 .body .square .get {
     position: relative;
@@ -519,21 +448,22 @@ header nav .detbx .signup:hover{
     text-align: center;
     color: #fff;
     text-transform: capitalize;
-    top: 38%;
-
-
+    top: 40%;
 }
-
 
 .body .square .loadbar {
     position: relative;
     margin: auto;
     height: 0.5rem;
     width: 80%;
-    background-color: red;
+    background-color: #2c2c2c;
     top: 75%;
+}
 
-
+.body .square .loadbar .load{
+    width: 90%;
+    background-color: red;
+    height: 100%;
 }
 
 .body .grant-img {
@@ -543,17 +473,14 @@ header nav .detbx .signup:hover{
     box-sizing: border-box;
     top: 60rem;
     margin: auto;
-
-
 }
-
 
 .body .grant-img .ourg {
     position: relative;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
     top: 7%;
     text-transform: capitalize;
@@ -561,7 +488,7 @@ header nav .detbx .signup:hover{
 
 }
 
-.body .grant-img .tri-img-container {
+.body .grant-img .tri-slide {
     position: relative;
     display: flex;
     height: 32rem;
@@ -569,35 +496,72 @@ header nav .detbx .signup:hover{
     box-sizing: border-box;
     margin: auto;
     top: 20%;
-
 }
 
-.body .grant-img .tri-img-container img {
+.body .grant-img .tri-slide .med-grant {
     width: 32%;
     height: 100%;
     margin: auto;
+    background: linear-gradient(to top, #a407c2, transparent);
+    border-radius: 20px;
+}
 
+.body .grant-img .tri-slide .med-grant .afg{
+    position: relative;
+    display: flex;
+    height: 11%;
+    width: 33%;
+    background-color: #a407c2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    right: -63%;
+    top: 5%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.body .grant-img .tri-slide .med-grant img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    bottom: 11%;
+    z-index: -1;
+}
+
+.body .grant-img .tri-slide .med-grant .med {
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    bottom: 35%;
+    text-decoration: underline;
 }
 
 .body .grant-img .bbar {
     position: relative;
     width: 70%;
-    height: 0.3rem;
-    background-color: #aa00c0;
+    height: 0.2rem;
+    background-color: #a407c2;
     margin: auto;
     top: 34%;
     z-index: 99999;
 }
 
-
 .body .six-container {
     position: relative;
-    width: 80%;
+    width: 90%;
     margin: auto;
-    height: 85rem;
+    height: 13%;
     box-sizing: border-box;
-    top: 70rem;
-
+    top: 11%;
 }
 
 .body .six-container .who {
@@ -606,20 +570,17 @@ header nav .detbx .signup:hover{
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
-    top: 5%;
 }
 
-
-.body .six-container .col-1 {
+.body .six-container .col-1,
+.body .six-container .col-2 {
     position: relative;
     display: flex;
     width: 100%;
-    height: 33rem;
-    top: 15%;
-
-
+    height: 45%;
+    top: 5%;
 }
 
 .body .six-container .col-1 .box1,
@@ -630,73 +591,53 @@ header nav .detbx .signup:hover{
     box-sizing: border-box;
     margin: auto;
     border-radius: 30px;
-   
-
 }
-.body .six-container .col-1 .box1:hover,
-.body .six-container .col-2 .box1:hover{
-    transform: scale(1.02);
-    transition: 0.5s ease-in;
-}
-
 
 .body .six-container .col-1 .box1 .frame9,
 .body .six-container .col-2 .box1 .frame9 {
-    position: relative;
     width: 100%;
     height: 100%;
-
 }
 
-
-.body .six-container .col-2 {
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 33rem;
-    top: 17%;
-
+.body .six-container .col-1 .box1:hover,
+.body .six-container .col-2 .box1:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
 }
-
 
 .body .testimonial {
     position: relative;
     width: 100%;
-    height: 47rem;
-    top: 90rem;
+    height: 7%;
+    top: 14.5%;
     box-sizing: border-box;
-    
-
 }
 
 .body .testimonial .textimony {
     position: relative;
     text-align: center;
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    top: 5%;
     color: #fff;
-
 }
-
 
 .body .testimonial .feed-slider {
     position: relative;
     display: flex;
     width: 100%;
-    height: 33rem;
-    top: 20%;
+    height: 75%;
+    top: 15%;
 
 }
 
 .body .testimonial .feed-slider .feed1 {
     position: relative;
     height: 100%;
-    width: 48rem;
+    width: 37%;
     box-sizing: border-box;
     background-color: #060116;
-    margin-left: 4em;
+    margin-left: 3em;
     border-radius: 30px;
 }
 
@@ -708,7 +649,6 @@ header nav .detbx .signup:hover{
     width: 100%;
     box-sizing: border-box;
     color: #fff;
-
 }
 
 .body .testimonial .feed-slider .feed1 .userfeed .colon {
@@ -718,8 +658,6 @@ header nav .detbx .signup:hover{
     font-weight: 800;
     margin: 0.6em;
     color: #a407c2;
-
-
 }
 
 .body .testimonial .feed-slider .feed1 .userfeed p{
@@ -727,10 +665,9 @@ header nav .detbx .signup:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-top: 2em;
-    margin-right: 1em;
+    margin-right: 2em;
     line-height: 1.2em;
 }
-
 
 .body .testimonial .feed-slider .feed1 .user {
     position: relative;
@@ -739,8 +676,6 @@ header nav .detbx .signup:hover{
     box-sizing: border-box;
     color: #fff;
     align-items: center;
-
-
 }
 
 .body .testimonial .feed-slider .feed1 .user .userpic {
@@ -748,7 +683,6 @@ header nav .detbx .signup:hover{
     margin-left: 4.4em;
     border-radius: 50%;
     width: 5.3rem;
-
 }
 
 .body .testimonial .feed-slider .feed1 .user .dash {
@@ -757,7 +691,6 @@ header nav .detbx .signup:hover{
     width: 4.5em;
     background-color: #fff;
     margin-left: 4em;
-    
 }
 
 .body .testimonial .feed-slider .feed1 .user .username {
@@ -766,16 +699,13 @@ header nav .detbx .signup:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-left: 0.7em;
-
 }
-
 
 .body .gallery {
     position: relative;
-    height: 170rem;
-    width: 100%;
-    top: 100rem;
-
+    height: 23.5%;
+    max-width: 100%;
+    top: 17%;
 }
 
 .body .gallery .galltext {
@@ -783,145 +713,123 @@ header nav .detbx .signup:hover{
     text-align: center;
     font-size: 4rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
-    top: 5%;
-
 }
 
 .body .gallery .gallimages {
     position: relative;
-    width: 80%;
-    height: 85.5%;
+    width: 78%;
+    height: 91%;
     margin: auto;
-    top: 10%;
+    top: 5%;
     box-sizing: border-box;
-
 }
 
 .body .gallery .gallimages .top {
     position: relative;
     display: flex;
-    height: 68.9rem;
+    height: 47.5%;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 3em;
-
 }
 
 
 .body .gallery .gallimages .top img{
-    width: 38em;
-
+    width: 30%;
 }
-
 
 .body .gallery .gallimages .top .rite {
     position: relative;
     margin: 0 0 3em 3em;
     box-sizing: border-box;
-    width: 95rem;
-    height: 73rem;
-
+    width: 68%;
+    height: 100%;
 }
-
-
 
 .body .gallery .gallimages .top .rite .up {
     position: relative;
     display: flex;
-    height: 33rem;
+    height: 48%;
+    width: 100%;
     box-sizing: border-box;
-
 }
 
 .body .gallery .gallimages .top .rite .up .imgb {
-    width: 55.5em;
+    width: 64%;
     margin-right: 3em;
     height: 100%;
-
 }
 
 .body .gallery .gallimages .top .rite .up .imgc{
-    width: 30em;
+    width: 34%;
     height: 100%;
 }
-
-
 
 .body .gallery .gallimages .top .rite .dwn {
     position: relative;
     display: flex;
     top: 3.9%;
-    height: 33rem;
+    height: 48%;
     box-sizing: border-box;
-
-
 }
 
 .body .gallery .gallimages .top .rite .dwn .imgd {
     position: relative;
     height: 100%;
-    width: 30em;
-
+    width: 34%;
 }
-
 
 .body .gallery .gallimages .top .rite .dwn .imge {
     position: relative;
     display: flex;
     height: 100%;
-    width: 55.5em;
+    width: 64%;
     margin-left: 3em;
-
-
 }
 
 .body .gallery .gallimages .mid {
     position: relative;
+    display: flex;
     width: 100%;
-    height: 35rem;
+    height: 24%;
     box-sizing: border-box;
     margin-bottom: 3em;
 }
 
 .body .gallery .gallimages .mid .imgf {
     position: relative;
-    width: 35.8em;
+    width: 30%;
     height: 100%;
 }
 
 .body .gallery .gallimages .mid .imgg {
     position: relative;
-    width: 88.2em;
+    width: 68%;
     height: 100%;
-    margin-left: 3em;
-
+    margin-left: 2.8em;
 }
 
 .body .gallery .gallimages .bttom {
     position: relative;
+    display: flex;
     width: 100%;
-    height: 35rem;
+    height: 24%;
     box-sizing: border-box;
-
 }
-
-
 
 .body .gallery .gallimages .bttom .imgh {
     position: relative;
-    width: 62em;
+    width: 48%;
     height: 100%;
     margin-right: 3em;
-
 }
 
 .body .gallery .gallimages .bttom .imgi {
     position: relative;
-    width: 62em;
+    width: 50%;
     height: 100%;
-
 }
 
 .body .gallery .gallimages .top img:hover,
@@ -934,116 +842,107 @@ header nav .detbx .signup:hover{
 .body .gallery .gallimages .bttom .imgh:hover,
 .body .gallery .gallimages .bttom .imgi:hover{
     transform: scale(1.02);
-    transition: 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-
 
 .body .questions {
     position: relative;
     width: 100%;
-    height: 70rem;
+    height: 10%;
     border: 1px solid red;
-    top: 110rem;
-
+    top: 19%;
 }
 
 .body .questions .faq {
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     color: #fff;
-    top: 5%;
     text-transform: capitalize;
-
 }
 
-
-
-
-footer {
+.body .partners {
     position: relative;
-    width: 100%;
-    height: 69rem;
-    background-color: #0d091e;
-    top: -25rem;
-}
-
-footer .partners {
-    position: relative;
-    width: 100%;
-    height: 23rem;
+    height: 3.4%;
     width: 90%;
     margin: auto;
     background-color: #fff;
-    border-radius: 50px;
-
+    border-radius: 70px;
+    top: 19%;
+    border: 10px solid black;
+    z-index: 99999;
 }
 
-footer .partners .partext {
+.body .partners .partext {
     position: relative;
+    display: flex;
     width: 25%;
-    height: 6.5rem;
+    height: 34%;
     background-color: #a407c2;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     box-sizing: border-box;
     margin: auto;
-    padding: 1.6em;
     top: -15%;
-
 }
 
-footer .partners .ourpart {
-    position: relative;
-    text-align: center;
+.body .partners .ourpart {
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #fff;
     text-transform: capitalize;
-
 }
 
-footer .partners .partner-icon {
+.body .partners .partner-icon {
     position: relative;
     display: flex;
-    
 }
 
-footer .partners .partner-icon img {
+.body .partners .partner-icon img {
     position: relative;
     margin: auto;
     width: 18em;
-
 }
 
-footer .partners .partner-icon .gc {
+.body .partners .partner-icon .gc {
     position: relative;
     width: 30em;
 }
 
-footer .partners .partner-icon .kn {
+.body .partners .partner-icon .kn {
     position: relative;
     width: 28em;
 }
 
-
-footer .partners .partner-icon .k {
+.body .partners .partner-icon .k {
     position: relative;
     width: 10em;
+}
+
+footer {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    background-color: #0d091e;
+    box-sizing: border-box;
+    z-index: -3;
+    top: -12%;
 }
 
 footer .bottom {
     position: relative;
     width: 100%;
-    height: 36rem;
+    height: 60%;
     background-color: #060116;
-    top: 10rem;
     box-sizing: border-box;
-
+    bottom: 0;
+    top: 40%;
 }
-
 
 footer .bottom .tophalf {
     position: relative;
@@ -1053,16 +952,13 @@ footer .bottom .tophalf {
     margin: auto;
     box-sizing: border-box;
     top: 10%;
-
 }
 
 footer .bottom .tophalf .contact {
     position: relative;
     width: 70%;
     height: 100%;
-
 }
-
 
 footer .bottom .tophalf .contact .gel {
     position: relative;
@@ -1071,15 +967,11 @@ footer .bottom .tophalf .contact .gel {
     justify-content: center;
     height: 5rem;
     box-sizing: border-box;
-   
 }
 
 footer .bottom .tophalf .contact .gel img{
     margin-right: 0.5em;
-
 }
-
-
 
 footer .bottom .tophalf .contact .gel .ge-t{
     position: relative;
@@ -1091,18 +983,14 @@ footer .bottom .tophalf .contact .gel .ge-t{
     font-size: 1.3rem;
     line-height: 1.3em;
     padding: auto;
-
 }
-
 
 footer .bottom .tophalf .contact .abt1,
 footer .bottom .tophalf .contact .abt2 {
     position: relative;
     display: flex;
     top: 9rem;
-
 }
-
 
 footer .bottom .tophalf .contact .abt1 li{
     font-size: 1.6rem;
@@ -1110,7 +998,7 @@ footer .bottom .tophalf .contact .abt1 li{
     margin: 0 4em 0.8em 0;
     text-transform: capitalize;
     letter-spacing: 0.05em;
-    
+    font-weight: 300; 
 
 }
 
@@ -1120,8 +1008,7 @@ footer .bottom .tophalf .contact .abt2 li{
     margin: 0 6.3em 0.8em 0;
     text-transform: capitalize;
     letter-spacing: 0.05em;
-    
-
+    font-weight: 300;
 }
 
 footer .bottom .tophalf .contact .abt1 li a,
@@ -1141,7 +1028,6 @@ footer .bottom .tophalf .contactus {
     width: 23%;
     box-sizing: border-box;
     left: 7%;
-
 }
 
 footer .bottom .tophalf .contactus .newsletter {
@@ -1150,7 +1036,6 @@ footer .bottom .tophalf .contactus .newsletter {
     height: 10rem;
     box-sizing: border-box;
     border: 1px solid red;
-
 }
 
 footer .bottom .tophalf .contactus .cntus {
@@ -1158,44 +1043,39 @@ footer .bottom .tophalf .contactus .cntus {
     font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.05em;
-
 }
 
 footer .bottom .tophalf .contactus .addr {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     top: 5%;
     line-height: 1.4em;
     letter-spacing: 0.05em;
-    font-weight: 100;
-
+    font-weight: 300;
 }
-
 
 footer .bottom .thin-bar {
     position: relative;
     width: 75%;
     height: 0.1rem;
     background-color: #51055C;
-    top: 6.1rem;
+    top: 5.5rem;
     margin: auto;
-
 }
 
 footer .bottom .btmhalf {
     position: relative;
     display: flex;
     width: 75%;
-    height: 7rem;
+    height: 5rem;
     margin: auto;
     box-sizing: border-box;
     top: 7rem;
     align-items: center;
-
 }
 
 footer .bottom .btmhalf .copyrt {
@@ -1203,7 +1083,6 @@ footer .bottom .btmhalf .copyrt {
     display: flex;
     align-items: center;
     color: #fff;
-
 }
 
 footer .bottom .btmhalf .copyrt .c{
@@ -1218,7 +1097,7 @@ footer .bottom .btmhalf .copyrt .c{
     font-family: 'Poppins', sans-serif;
     align-items: center;
     justify-content: center;
-    
+    font-weight: 300;
 }
 
 footer .bottom .btmhalf .copyrt .cget {
@@ -1228,22 +1107,39 @@ footer .bottom .btmhalf .copyrt .cget {
     margin-left: 0.4em;
     letter-spacing: 0.1em;
     text-transform: capitalize;
-
-
+    font-weight: 300;
 }
 
 footer .bottom .btmhalf .social {
     position: relative;
     box-sizing: border-box;
-
+    width: 15.8%;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 57.5%;
+    box-sizing: border-box;
 }
 
-/* footer .bottom .btmhalf .social li {
-
-} */
+footer .bottom .btmhalf .social li {
+    position: relative;
+    margin-left: 2em;
+}
 
 footer .bottom .btmhalf .social li a{
     color: #fff;
     text-decoration: none;
-
+    font-size: 3em;
 }
+
+footer .bottom .btmhalf .social li:hover{
+    color: #F07CFF63;
+    transform: scale(1.1);
+    transition: all ease-in-out;
+}
+
+/* footer .bottom .btmhalf .social li a i{
+    color: #F07CFF63;
+
+} */
