@@ -181,7 +181,6 @@ section .split-col .left{
     box-sizing: border-box;
 }
 
-
 section .split-col .left .text-container {
     position: relative;
     width: 60%;
@@ -211,8 +210,6 @@ section .split-col .left .text-container .grant2{
     top: 1em;
 }
 
-
-
 section .split-col .left .text-container .apply {
     position: relative;
     display: flex;
@@ -227,10 +224,7 @@ section .split-col .left .text-container .apply {
     justify-content: center;
     border-radius: 25px;
     transition: all 0.3s ease-in-out;
-    
-
 }
-
 
 section .split-col .left .text-container .apply a{
     text-decoration: none;
@@ -255,9 +249,7 @@ section .split-col .right {
 section .split-col .right img{
     width: 100%;
     height: 100%;
-
 }
-
 
 section .reach {
     position: relative;
@@ -270,7 +262,6 @@ section .reach .curve {
     position: relative;
     width: 100%;
     height: 100%;
-
 }
 
 section .reach .rcontainer {
@@ -311,33 +302,36 @@ section .reach .rcontainer .explan {
     box-sizing: border-box;
 }
 
-
 section .reach .rcontainer .explan p{
     font-size: 1.7rem;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     line-height: 1.4em;
     box-sizing: border-box;
-
 }
 
 .body {
     position: relative;
-    max-height: 680rem;
-    height: 680rem;
+    max-height: 745rem;
+    height: 745em;
     max-width: 100%;
     background-color: #0d091e;
     top: -6rem;
     z-index: -1;
-
 }
 
+.body .cslide {
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    top: 4%;
+    top: 19.5rem;
+}
 
-.body .cohort {
+.body .cslide .cohort {
     position: relative;
     font-size: 4rem;
     font-family: 'Poppins', sans-serif;
-    top: 3%;
     text-align: center;
     width: auto;
     box-sizing: border-box;
@@ -346,22 +340,22 @@ section .reach .rcontainer .explan p{
     font-weight: 700;
 }
 
-.body .slider-container {
+.body .cslide .slider-container {
     position: relative;
     display: flex;
     width: 100%;
-    height: 4.4%;
-    top: 4%;
+    height: 62%;
+    top: 15%;
 }
 
-.body .slider-container img{
+.body .cslide .slider-container img{
     position: relative;
     width: 24%;
     height: 100%;
     margin: auto;
 }
 
-.body .slider-container .more {
+.body .cslide .slider-container .more {
     width: 24%;
     height: 100%;
     border-radius: 20px;
@@ -419,12 +413,13 @@ section .reach .rcontainer .explan p{
 
 .body .square {
     position: relative;
-    height: 12%;
+    /* height: 12%; */
+    height: 90rem;
     max-width: 78%;
     background-color: black;
     margin: auto;
     box-sizing: border-box;
-    top: 50rem;
+    top: 35rem;
 }
 
 .body .square .glog {
@@ -471,7 +466,7 @@ section .reach .rcontainer .explan p{
     height: 60rem;
     width: 85%;
     box-sizing: border-box;
-    top: 60rem;
+    top: 6.4%;
     margin: auto;
 }
 
@@ -485,7 +480,6 @@ section .reach .rcontainer .explan p{
     top: 7%;
     text-transform: capitalize;
     box-sizing: border-box;
-
 }
 
 .body .grant-img .tri-slide {
@@ -559,9 +553,9 @@ section .reach .rcontainer .explan p{
     position: relative;
     width: 90%;
     margin: auto;
-    height: 13%;
+    height: 90rem;
     box-sizing: border-box;
-    top: 11%;
+    top: 8.5%;
 }
 
 .body .six-container .who {
@@ -579,8 +573,8 @@ section .reach .rcontainer .explan p{
     position: relative;
     display: flex;
     width: 100%;
-    height: 45%;
-    top: 5%;
+    height: 43.4%;
+    top: 7%;
 }
 
 .body .six-container .col-1 .box1,
@@ -608,8 +602,8 @@ section .reach .rcontainer .explan p{
 .body .testimonial {
     position: relative;
     width: 100%;
-    height: 7%;
-    top: 14.5%;
+    height: 65rem;
+    top: 11.3%;
     box-sizing: border-box;
 }
 
@@ -626,9 +620,8 @@ section .reach .rcontainer .explan p{
     position: relative;
     display: flex;
     width: 100%;
-    height: 75%;
+    height: 57%;
     top: 15%;
-
 }
 
 .body .testimonial .feed-slider .feed1 {
@@ -640,7 +633,6 @@ section .reach .rcontainer .explan p{
     margin-left: 3em;
     border-radius: 30px;
 }
-
 
 .body .testimonial .feed-slider .feed1 .userfeed {
     position: relative;
@@ -666,7 +658,7 @@ section .reach .rcontainer .explan p{
     font-weight: 300;
     margin-top: 2em;
     margin-right: 2em;
-    line-height: 1.2em;
+    line-height: 1.4em;
 }
 
 .body .testimonial .feed-slider .feed1 .user {
@@ -703,9 +695,9 @@ section .reach .rcontainer .explan p{
 
 .body .gallery {
     position: relative;
-    height: 23.5%;
+    height: 160rem;
     max-width: 100%;
-    top: 17%;
+    top: 13.1%;
 }
 
 .body .gallery .galltext {
@@ -722,7 +714,7 @@ section .reach .rcontainer .explan p{
     width: 78%;
     height: 91%;
     margin: auto;
-    top: 5%;
+    top: 5.6%;
     box-sizing: border-box;
 }
 
@@ -734,7 +726,6 @@ section .reach .rcontainer .explan p{
     box-sizing: border-box;
     margin-bottom: 3em;
 }
-
 
 .body .gallery .gallimages .top img{
     width: 30%;
@@ -848,9 +839,8 @@ section .reach .rcontainer .explan p{
 .body .questions {
     position: relative;
     width: 100%;
-    height: 10%;
-    border: 1px solid red;
-    top: 19%;
+    height: 70rem;
+    top: 14.6%;
 }
 
 .body .questions .faq {
@@ -863,16 +853,138 @@ section .reach .rcontainer .explan p{
     text-transform: capitalize;
 }
 
+.body .questions .dropdwn1 {
+    position: relative;
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    top: 10%;
+}
+
+.body .questions .dropdwn2{
+    position: relative;
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    top: -16.5%;
+}
+
+.body .questions .dropdwn3{
+    position: relative;
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    top: -42.5%;
+}
+
+.body .questions .dropdwn4{
+    position: relative;
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    top: -68.5%;
+}
+
+.body .questions .dropdwn1 .drop-btn1,
+.body .questions .dropdwn2 .drop-btn2,
+.body .questions .dropdwn3 .drop-btn3,
+.body .questions .dropdwn4 .drop-btn4 {
+    display: flex;
+    width: 100%;
+    height: 36%;
+    background: #060116;
+    color: #fff;
+    padding: 0 8em;
+    border-radius: 2.8em;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    z-index: 99998;
+}
+
+.body .questions .dropdwn1 .drop-btn1 .drop-text1,
+.body .questions .dropdwn2 .drop-btn2 .drop-text2, 
+.body .questions .dropdwn3 .drop-btn3 .drop-text3,
+.body .questions .dropdwn4 .drop-btn4 .drop-text4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.body .questions .dropdwn1 .drop-btn1 i,
+.body .questions .dropdwn2 .drop-btn2 i,
+.body .questions .dropdwn3 .drop-btn3 i,
+.body .questions .dropdwn4 .drop-btn4 i{
+    font-size: 4.9rem;
+    color: #FF72D0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.body .questions .dropdwn1.active .drop-btn1 i,
+.body .questions .dropdwn2.active .drop-btn2 i,
+.body .questions .dropdwn3.active .drop-btn3 i,
+.body .questions .dropdwn4.active .drop-btn4 i{
+    transform: rotate(270deg);
+}
+
+.body .questions .dropdwn1 .paragraph1,
+.body .questions .dropdwn2 .paragraph2,
+.body .questions .dropdwn3 .paragraph3,
+.body .questions .dropdwn4 .paragraph4 {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 71%;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 0 0 1.5em 1.5em;
+    background-color: #060116;
+    margin: 0 auto;
+    top: -7%;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 1em 1em 3.9em;
+    z-index: 99999;
+}
+
+.body .questions .dropdwn1 .paragraph1 p,
+.body .questions .dropdwn2 .paragraph2 p,
+.body .questions .dropdwn3 .paragraph3 p,
+.body .questions .dropdwn4 .paragraph4 p{
+    opacity: 50%;
+    line-height: 1.5em;
+}
+
+.body .questions .dropdwn1 .paragraph1 p a,
+.body .questions .dropdwn2 .paragraph2 p a,
+.body .questions .dropdwn3 .paragraph3 p a,
+.body .questions .dropdwn4 .paragraph4 p a{
+    text-decoration: none;
+    color: #FF72D0;
+}
+
+.body .questions .dropdwn1.active .paragraph1,
+.body .questions .dropdwn2.active .paragraph2,
+.body .questions .dropdwn3.active .paragraph3,
+.body .questions .dropdwn4.active .paragraph4 {
+    display: block;
+}
+
 .body .partners {
     position: relative;
-    height: 3.4%;
+    height: 25rem;
     width: 90%;
     margin: auto;
     background-color: #fff;
     border-radius: 70px;
-    top: 19%;
-    border: 10px solid black;
-    z-index: 99999;
+    top: 17.1%;
+    border: 1px solid teal;
 }
 
 .body .partners .partext {
@@ -926,32 +1038,30 @@ section .reach .rcontainer .explan p{
 footer {
     position: relative;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 45rem;
     height: 100%;
-    background-color: #0d091e;
+    background-color: #060116;
     box-sizing: border-box;
     z-index: -3;
-    top: -12%;
+    top: -11%;
 }
 
 footer .bottom {
     position: relative;
     width: 100%;
-    height: 60%;
-    background-color: #060116;
+    height: 90%;
     box-sizing: border-box;
-    bottom: 0;
-    top: 40%;
+    top: 10%;
 }
 
 footer .bottom .tophalf {
     position: relative;
     display: flex;
-    width: 75%;
-    height: 20rem;
+    width: 80%;
+    height: 25rem;
     margin: auto;
     box-sizing: border-box;
-    top: 10%;
+    top: 10.5%;
 }
 
 footer .bottom .tophalf .contact {
@@ -963,47 +1073,48 @@ footer .bottom .tophalf .contact {
 footer .bottom .tophalf .contact .gel {
     position: relative;
     display: flex;
-    width: 13rem;
+    width: 20rem;
     justify-content: center;
-    height: 5rem;
+    height: 6.5rem;
     box-sizing: border-box;
+    padding: auto;
 }
 
 footer .bottom .tophalf .contact .gel img{
-    margin-right: 0.5em;
+    margin-right: 0.8em;
+    width: 100%;
+    height: 100%;
+    left: -1%;
 }
 
 footer .bottom .tophalf .contact .gel .ge-t{
     position: relative;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    z-index: 9999;
     letter-spacing: 2px;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     line-height: 1.3em;
-    padding: auto;
 }
 
 footer .bottom .tophalf .contact .abt1,
 footer .bottom .tophalf .contact .abt2 {
     position: relative;
     display: flex;
-    top: 9rem;
+    top: 45%;
 }
 
 footer .bottom .tophalf .contact .abt1 li{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-family: 'Poppins', sans-serif;
-    margin: 0 4em 0.8em 0;
+    margin: 0 4em 1em 0;
     text-transform: capitalize;
     letter-spacing: 0.05em;
-    font-weight: 300; 
-
+    font-weight: 300;
 }
 
 footer .bottom .tophalf .contact .abt2 li{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-family: 'Poppins', sans-serif;
     margin: 0 6.3em 0.8em 0;
     text-transform: capitalize;
@@ -1033,7 +1144,7 @@ footer .bottom .tophalf .contactus {
 footer .bottom .tophalf .contactus .newsletter {
     position: relative;
     width: 100%;
-    height: 10rem;
+    height: 50%;
     box-sizing: border-box;
     border: 1px solid red;
 }
@@ -1049,7 +1160,7 @@ footer .bottom .tophalf .contactus .cntus {
 
 footer .bottom .tophalf .contactus .addr {
     position: relative;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     top: 5%;
@@ -1060,21 +1171,21 @@ footer .bottom .tophalf .contactus .addr {
 
 footer .bottom .thin-bar {
     position: relative;
-    width: 75%;
+    width: 80%;
     height: 0.1rem;
     background-color: #51055C;
-    top: 5.5rem;
+    top: 15%;
     margin: auto;
 }
 
 footer .bottom .btmhalf {
     position: relative;
     display: flex;
-    width: 75%;
+    width: 80%;
     height: 5rem;
     margin: auto;
     box-sizing: border-box;
-    top: 7rem;
+    top: 21%;
     align-items: center;
 }
 
@@ -1090,9 +1201,8 @@ footer .bottom .btmhalf .copyrt .c{
     display: flex;
     border-radius: 50px;
     border: 1px solid #fff;
-    width: 2.3rem;
-    height: 2.3rem;
-    text-align: center;
+    width: 2.5rem;
+    height: 2.5rem;
     font-size: 1.8em;
     font-family: 'Poppins', sans-serif;
     align-items: center;
@@ -1102,7 +1212,7 @@ footer .bottom .btmhalf .copyrt .c{
 
 footer .bottom .btmhalf .copyrt .cget {
     position: relative;
-    font-size: 1.5em;
+    font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
     margin-left: 0.4em;
     letter-spacing: 0.1em;
