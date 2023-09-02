@@ -1,4 +1,18 @@
 
+// .slider-container {
+//     width: 100%;
+//     overflow: hidden;
+// }
+
+// .slide {
+//     display: none;
+// }
+
+// .slide img {
+//     width: 100%;
+//     height: auto;
+// }
+
 
 // let slideindex = 1;
 // showSlides(slideindex);
@@ -80,3 +94,72 @@ const optionMenu4 = document.querySelector(".dropdwn4"),
 
 
 selectBtn4.addEventListener("click", () => optionMenu4.classList.toggle("active"));
+
+
+const swiper = new Swiper('.sample-slider', {
+    slidesPerView: 4,
+    spaceBetween: 40,
+    loop: true,                         //loop
+    autoplay: {                         //autoplay
+        delay: 2000,  
+    },   
+    pagination: {                       //pagination(dots)
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {                       //navigation(arrows)
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+})
+
+
+
+const swiper1 = new Swiper('.slider1', {
+        slidesPerView: 3,
+        spaceBetween: 40,
+        loop: true,                         //loop
+        autoplay: {                         //autoplay
+            delay: 2000,  
+        },   
+        pagination: {                       //pagination(dots)
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {                       //navigation(arrows)
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    })
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var swiper = new Swiper(".sample-slider1", {
+//         slidesPerView: 4,
+//         spaceBetween: 20,
+//         loop: true,
+//         pagination: {
+//           el: ".swiper-pagination",
+//           clickable: true,
+//         },
+//         navigation: {
+//           nextEl: ".swiper-button-next",
+//           prevEl: ".swiper-button-prev",
+//         },
+//     });
+        

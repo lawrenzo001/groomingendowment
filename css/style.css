@@ -11,7 +11,7 @@ header {
     background-image: url("C:/Users/Lawrenzo/Documents/groomingendowment/assets/image 4.png");
     max-width: 100%;
     width: 100%;
-    background-size: cover;  
+    background-size: cover; 
 }
 
 header nav {
@@ -324,8 +324,7 @@ section .reach .rcontainer .explan p{
     position: relative;
     width: 100%;
     height: 50rem;
-    top: 4%;
-    top: 19.5rem;
+    top: 3%;
 }
 
 .body .cslide .cohort {
@@ -340,86 +339,59 @@ section .reach .rcontainer .explan p{
     font-weight: 700;
 }
 
-.body .cslide .slider-container {
-    position: relative;
-    display: flex;
+.body .cslide .sample-slider{
+    height: 77%;
+    width: 97%;
+    box-sizing: border-box;
+    top: 14%;
+    right: 1%;
+}
+.body .cslide .sample-slider .swiper-wrapper{
     width: 100%;
-    height: 62%;
-    top: 15%;
+    height: 80%;
 }
 
-.body .cslide .slider-container img{
-    position: relative;
-    width: 24%;
+.body .cslide .sample-slider .swiper-wrapper .swiper-slide{
+    background-size: cover;
+}
+
+.body .cslide .sample-slider .swiper-wrapper .swiper-slide img{
+    width: 100%;
     height: 100%;
-    margin: auto;
 }
 
-.body .cslide .slider-container .more {
-    width: 24%;
-    height: 100%;
-    border-radius: 20px;
-    background: linear-gradient(to bottom, #ebcaf1, #51055C);
-    margin: auto;
+.body .cslide .sample-slider [class^="swiper-button-"]::after{
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 100;
+}
+.body .cslide .sample-slider [class^="swiper-button-"]:hover::after{
+    color: #a407c2;
 }
 
-
-/* .body .slider-container {
-    width: 100%;
-    overflow: hidden;
+.body .cslide .sample-slider [class^="swiper-button-"]{
+    top: initial;
+    bottom: 3%;
 }
 
-.body .slider-container .slide {
-    display: none;
-    width: 15%;
-    height: 10%;
+.body .cslide .sample-slider .swiper-button-prev{
+    left: 92%;
+    width: 2rem;
 }
 
-.body .slider-container .slide img {
-    width: 100%;
-    height: auto;
+.body .cslide .sample-slider .swiper-button-next{
+    left: 97%;
+    width: 2rem;
 }
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateX(-50%);
-    font-size: 1.5em;
-}
-
-.prev {
-    left: 0.6em;
-}
-
-.next {
-    right: 0.6em;
-}
-
-.dots {
-    display: inline-block;
-    width: 0.7em;
-    height: 0.7em;
-    border-radius: 50%;
-    background-color: #bbb;
-    margin: 0 0.2em;
-    cursor: pointer;
-}
-
-.active {
-    background-color: #333;
-} */
-
 
 .body .square {
     position: relative;
-    /* height: 12%; */
     height: 90rem;
     max-width: 78%;
     background-color: black;
     margin: auto;
     box-sizing: border-box;
-    top: 35rem;
+    top: 4.7%;
 }
 
 .body .square .glog {
@@ -616,25 +588,32 @@ section .reach .rcontainer .explan p{
     color: #fff;
 }
 
-.body .testimonial .feed-slider {
+.body .testimonial .sample-slider1{
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    top: 14%;
+}
+
+.body .testimonial .sample-slider1 .swiper-wrapper {
     position: relative;
     display: flex;
     width: 100%;
-    height: 57%;
-    top: 15%;
+    height: 75%;
+    top: 10%;
 }
 
-.body .testimonial .feed-slider .feed1 {
+.body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide {
     position: relative;
     height: 100%;
-    width: 37%;
+    width: 32%;
     box-sizing: border-box;
     background-color: #060116;
     margin-left: 3em;
     border-radius: 30px;
 }
 
-.body .testimonial .feed-slider .feed1 .userfeed {
+.body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed {
     position: relative;
     display: flex;
     height: 70%;
@@ -643,7 +622,7 @@ section .reach .rcontainer .explan p{
     color: #fff;
 }
 
-.body .testimonial .feed-slider .feed1 .userfeed .colon {
+.body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed .colon {
     position: relative;
     font-size: 8rem;
     font-family: 'Poppins', sans-serif;
@@ -652,7 +631,7 @@ section .reach .rcontainer .explan p{
     color: #a407c2;
 }
 
-.body .testimonial .feed-slider .feed1 .userfeed p{
+.body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed p{
     font-size: 2.1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -661,7 +640,7 @@ section .reach .rcontainer .explan p{
     line-height: 1.4em;
 }
 
-.body .testimonial .feed-slider .feed1 .user {
+.body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user {
     position: relative;
     display: flex;
     width: 100%;
@@ -670,14 +649,14 @@ section .reach .rcontainer .explan p{
     align-items: center;
 }
 
-.body .testimonial .feed-slider .feed1 .user .userpic {
+.body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .userpic {
     position: relative;
     margin-left: 4.4em;
     border-radius: 50%;
     width: 5.3rem;
 }
 
-.body .testimonial .feed-slider .feed1 .user .dash {
+.body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .dash {
     position: relative;
     height: 0.3em;
     width: 4.5em;
@@ -685,13 +664,52 @@ section .reach .rcontainer .explan p{
     margin-left: 4em;
 }
 
-.body .testimonial .feed-slider .feed1 .user .username {
+.body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .username {
     position: relative;
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     margin-left: 0.7em;
 }
+
+
+
+.body .testimonial .sample-slider1 [class^="swiper-button-"]::after{
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 100;
+}
+.body .testimonial .sample-slider1 [class^="swiper-button-"]:hover::after{
+    color: #a407c2;
+}
+
+.body .testimonial .sample-slider1 [class^="swiper-button-"]{
+    top: initial;
+    bottom: 3%;
+}
+
+.body .testimonial .sample-slider1 .swiper-button-prev{
+    left: 92%;
+    width: 2rem;
+}
+
+.body .testimonial .sample-slider1 .swiper-button-next{
+    left: 97%;
+    width: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .body .gallery {
     position: relative;
