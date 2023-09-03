@@ -1,6 +1,7 @@
  
 html, body {
     height: 100%;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -17,17 +18,17 @@ header {
 header nav {
     position: relative;
     max-width: 80%;
-    max-height: 55%;
-    height: 100%;
+    height: 60%;
     box-sizing: border-box;
     margin: auto;
-    bottom: -8rem;
+    top: 12.5%;
 }
 
 header nav .rect {
     position: relative;
     margin: auto;
-    height: 17%;
+    max-height: 17%;
+    height: 100%;
     width: 100%;
     border: 0.5px solid #808080;
     box-sizing: border-box;
@@ -41,7 +42,8 @@ header nav .detbx {
     position: relative;
     display: flex;
     box-sizing: border-box;
-    height: 17%;
+    max-height: 17%;
+    height: 100%;
     width: 100%;
     margin: auto;
     padding: 0.9em;
@@ -168,8 +170,7 @@ section .split-col {
     display: flex;
     max-width: 100%;
     width: 100%;
-    height: 100%;
-    max-height: 50%;
+    height: 50%;
 }
 
 section .split-col .left{
@@ -189,6 +190,7 @@ section .split-col .left .text-container {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     top: 20%;
+    left: 5%;
 }
 
 section .split-col .left .text-container .grant1{
@@ -218,7 +220,7 @@ section .split-col .left .text-container .apply {
     font-weight: 500;
     width: 32%;
     height: 20%;
-    top: 2.5em;
+    top: 15%;
     background-color: #aa00c0;
     align-items: center;
     justify-content: center;
@@ -283,6 +285,7 @@ section .reach .rcontainer .sheart img{
 }
 
 section .reach .rcontainer .progress {
+    position: relative;
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     font-weight: 700;
@@ -322,6 +325,7 @@ section .reach .rcontainer .explan p{
 
 .body .cslide {
     position: relative;
+    max-width: 100%;
     width: 100%;
     height: 50rem;
     top: 3%;
@@ -468,7 +472,7 @@ section .reach .rcontainer .explan p{
     width: 32%;
     height: 100%;
     margin: auto;
-    background: linear-gradient(to top, #a407c2, transparent);
+    background: linear-gradient(to top, #a407c2, transparent, transparent, transparent);
     border-radius: 20px;
 }
 
@@ -497,6 +501,7 @@ section .reach .rcontainer .explan p{
     width: 100%;
     bottom: 11%;
     z-index: -1;
+    border-radius: 20px;
 }
 
 .body .grant-img .tri-slide .med-grant .med {
@@ -525,7 +530,8 @@ section .reach .rcontainer .explan p{
     position: relative;
     width: 90%;
     margin: auto;
-    height: 90rem;
+    max-height: 90rem;
+    height: 100%;
     box-sizing: border-box;
     top: 8.5%;
 }
@@ -533,7 +539,6 @@ section .reach .rcontainer .explan p{
 .body .six-container .who {
     position: relative;
     text-align: center;
-    text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     font-weight: 700;
@@ -573,6 +578,7 @@ section .reach .rcontainer .explan p{
 
 .body .testimonial {
     position: relative;
+    max-width: 99%;
     width: 100%;
     height: 65rem;
     top: 11.3%;
@@ -589,8 +595,8 @@ section .reach .rcontainer .explan p{
 }
 
 .body .testimonial .sample-slider1{
-    height: 80%;
-    width: 100%;
+    height: 75%;
+    width: 98%;
     box-sizing: border-box;
     top: 14%;
 }
@@ -599,8 +605,8 @@ section .reach .rcontainer .explan p{
     position: relative;
     display: flex;
     width: 100%;
-    height: 75%;
-    top: 10%;
+    height: 80%;
+    top: 14%;
 }
 
 .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide {
@@ -638,6 +644,7 @@ section .reach .rcontainer .explan p{
     margin-top: 2em;
     margin-right: 2em;
     line-height: 1.4em;
+    box-sizing: border-box;
 }
 
 .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user {
@@ -672,8 +679,6 @@ section .reach .rcontainer .explan p{
     margin-left: 0.7em;
 }
 
-
-
 .body .testimonial .sample-slider1 [class^="swiper-button-"]::after{
     font-size: 3.5rem;
     color: #fff;
@@ -685,36 +690,24 @@ section .reach .rcontainer .explan p{
 
 .body .testimonial .sample-slider1 [class^="swiper-button-"]{
     top: initial;
-    bottom: 3%;
+    bottom: 10%;
 }
 
 .body .testimonial .sample-slider1 .swiper-button-prev{
-    left: 92%;
+    left: 90%;
     width: 2rem;
 }
 
 .body .testimonial .sample-slider1 .swiper-button-next{
-    left: 97%;
+    left: 95%;
     width: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .body .gallery {
     position: relative;
     height: 160rem;
     max-width: 100%;
+    width: 100%;
     top: 13.1%;
 }
 
@@ -939,6 +932,7 @@ section .reach .rcontainer .explan p{
     color: #FF72D0;
     transition: 0.4s;
     cursor: pointer;
+    font-weight: 100;
 }
 
 .body .questions .dropdwn1.active .drop-btn1 i,
@@ -1002,7 +996,6 @@ section .reach .rcontainer .explan p{
     background-color: #fff;
     border-radius: 70px;
     top: 17.1%;
-    border: 1px solid teal;
 }
 
 .body .partners .partext {
@@ -1056,6 +1049,7 @@ section .reach .rcontainer .explan p{
 footer {
     position: relative;
     max-width: 100%;
+    width: 100%;
     max-height: 45rem;
     height: 100%;
     background-color: #060116;

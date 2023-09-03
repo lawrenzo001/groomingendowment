@@ -1,160 +1,510 @@
 
 
 @media (max-width: 1440px) {
+    header nav {
+        position: relative;
+        height: 70%;   
+    }
+
     header nav .rect {
+        max-height: 19%;
         height: 100%;
-        top: -29rem;
     }
 
     header nav .detbx {
+        max-height: 19%;
         height: 100%;
-        top: -33.5rem;
-
+        top: -18.9%;
+        padding: 0.7em;
     }
 
     header nav .detbx .logo {
-        margin-right: 5em;
-        height: 85%;
-    
+        height: 80%;
+        width: 16%;
+        left: 4.5%;
     }
 
-    header nav .detbx .logo img{
-        margin-right: 0.1em;
-        height: 100%;
-
+    header nav .detbx .logo .getlo {
+        width: 2.05rem;
+        margin-right: 1em;
     }
 
-    header nav .detbx .logo h3{
+    header nav .detbx .logo .miniget {
         font-size: 0.7rem;
-        letter-spacing: 1px;
-        line-height: 1.2em;
-
     }
 
+    header nav .detbx .basicnav {
+        height: 80%;
+    }
     header nav .detbx .basicnav li {
-        letter-spacing: 1px;
-        font-size: 1rem;
-        padding: 0 1em 0 1em;
-    
-
+        font-size: 0.9rem;
     }
 
     header nav .detbx .signup {
-        display: block;
-        width: 15%;
-        margin-left: 1em;
-        font-size: 1.1rem;
-        height: 88%;
-        left: 1%;
-        text-align: center;
-        box-sizing: border-box;
-       
-    }
-
-    header nav .detbx .signup a{
-        margin: 0 auto;
-        width: auto;
-    }
-
-
-    .welnote {
-        width: 45%;
-        height: 25%;
-        bottom: 25em;
-        box-sizing: border-box;
-        bottom: 20em;
-
-    }
-
-    .welnote .headtxt {
-        font-size: 1.1rem;
-        letter-spacing: 0.7px;
-        line-height: 1.2em;
-
-    }
-
-    .welnote h1 {
-        font-size: 2.5rem;
-
-    }
-
-    .split-col {
-        height: 27rem;
-        top: -1.8em;
-
-    }
-
-    .split-col .left {
-        height: inherit;
-    }
-
-    .split-col .left .text-container {
-        height: 77%;
-
-
-    }
-
-
-    .split-col .left .text-container .grant1 {
-        top: 2em;
-        font-size: 1.4rem;
-    }
-
-    .split-col .left .text-container .grant2 {
-        top: 5em;
+        right: 1.5%;
         font-size: 0.8rem;
-        line-height: 1.3rem;
-
-
+        height: 58%;
     }
 
-
-    .split-col .left .apply {
-        top: 7em;
-        font-size: 0.9rem;
-        font-weight: 500;
-        border-radius: 13px;
-
+    header nav .welnote {
+        top: 13.5%;
+        height: 40%;
     }
 
-
-    .reach {
-        top: -12.9rem;
-        height: 28em;
+    header nav .welnote .headtxt {
+        font-size: 1.1rem;
+        line-height: 1.4em;
+        letter-spacing: 1px;
     }
 
-    .reach .rcontainer {
+    header nav .welnote .getrust {
+        font-size: 2.5rem;
+    }
+
+    section {
+        height: 58rem;
+    }
+
+    section .split-col .left .text-container {
         width: 70%;
+        left: 5%;
+        top: 16%;
+        height: 68%;
     }
 
-    .reach .rcontainer .sheart {
-        width: 6%;
-
+    section .split-col .left .text-container .grant1{
+        font-size: 1.7rem;
+        line-height: 1.4em;
+        font-weight: 700;
     }
 
-    .reach .rcontainer .progress {
-        font-size: 2rem;
-        font-weight: 800;
-
+    section .split-col .left .text-container .grant2{
+        font-size: 1.1rem;
+        top: 10%;
+        line-height: 1.4em;
     }
 
-    .reach .rcontainer .explan {
-        position: relative;
-        top: 22%;
-
-
+    section .split-col .left .text-container .apply {
+        height: 18.5%;
+        width: 34%;
+        font-size: 1.2rem;
+        border-radius: 17px;
+        top: 20%;
     }
 
-    .reach .rcontainer .explan p{
-        font-size: 1rem;
-        line-height: 1.5em;
+    section .reach .rcontainer {
+        height: 60%;
+        top: -80%;
+    }
+
+    section .reach .rcontainer .sheart{
+        width: 5.7%;
+    }
+
+    section .reach .rcontainer .progress {
+        font-size: 2.5rem;
+    }
+
+    section .reach .rcontainer .explan{
+        margin-top: 1em;
+    }
+
+    section .reach .rcontainer .explan p{
+        font-size: 1.2rem;
     }
 
     .body {
-        top: -16rem;
+        height: 420rem;
     }
 
+    .body .cslide {
+        height: 29rem;
+        top: 3.5%;
+    }
 
+    .body .cslide .cohort {
+        font-size: 2.5rem;
+    }
 
+    .body .cslide .sample-slider .swiper-wrapper {
+        height: 78%;
+    }
+
+    .body .cslide .sample-slider [class^="swiper-button-"]::after{
+        font-size: 2rem;
+    }
+
+    .body .cslide .sample-slider [class^="swiper-button-"]{
+        bottom: 0;
+    }
+
+    .body .square {
+        top: 5.2%;
+        height: 46rem;
+    }
+
+    .body .square .glog {
+        width: 5.5rem;
+    }
+
+    .body .square .get {
+        font-size: 1.5rem;
+    }
+
+    .body .square .loadbar {
+        top: 73%;
+        height: 0.3rem;
+    }
+
+    .body .square .loadbar .load {
+        width: 93%;
+    }
+
+    .body .grant-img {
+        top: 7%;
+        height: 35rem;
+    }
+
+    .body .grant-img .ourg {
+        font-size: 2.5rem;
+        top: 3%
+    }
+
+    .body .grant-img .tri-slide {
+        height: 53%;
+        top: 15%;
+        width: 98%;
+    }
+
+    .body .grant-img .tri-slide .med-grant {
+        width: 31.5%;
+        border-radius: 15px;
+    }
+
+    .body .grant-img .tri-slide .med-grant img{
+        border-radius: 15px;
+    }
+
+    .body .grant-img .tri-slide .med-grant .afg {
+        font-size: 0.7rem;
+        border-radius: 5px;
+        top: 4%;
+        right: -65.5%;
+        width: 31%;
+        height: 10%;
+    }
+
+    .body .grant-img .tri-slide .med-grant .med {
+        font-size: 1.2rem;
+    }
+
+    .body .grant-img .bbar {
+        top: 30%;
+        width: 74%;
+    }
+
+    .body .six-container {
+        max-height: 51rem;
+        height: 100%;
+        top: 8.5%;
+    }
+
+    .body .six-container .who {
+        font-size: 2.5rem;
+    }
+
+    .body .testimonial {
+        height: 35rem;
+        top: 12%;
+    }
+
+    .body .testimonial .textimony {
+        font-size: 2.5rem;
+    }
+
+    .body .testimonial .sample-slider1 {
+        height: 78%;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide {
+        border-radius: 20px;
+        margin-left: 0.5em;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed .colon {
+        font-size: 7rem;
+        margin: 0.4em;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed p{
+        font-size: 1.2rem;
+        margin-bottom: 1em;
+    }
+
+    .body .testimonial .sample-slider1 [class^="swiper-button-"]::after{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    .body .testimonial .sample-slider1 [class^="swiper-button-"]{
+        top: initial;
+        bottom: 7%;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user {
+        top: 3%;
+    }
+    
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .userpic {
+        width: 3.5rem;
+        margin-left: 2.5em;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .dash {
+        margin-left: 2.8em;
+        width: 10%;
+        height: 0.2em;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .username {
+        font-size: 0.8rem;
+        margin-left: 0.9em;
+    }
+
+    .body .gallery {
+        height: 92rem;
+        top: 14.3%;
+    }
+
+    .body .gallery .galltext {
+        font-size: 2.5rem;
+    }
+
+    .body .gallery .gallimages {
+        width: 81%;
+        height: 88%;
+        top: 7.2%;
+    }
+
+    .body .gallery .gallimages .top {
+        margin-bottom: 2.3em;
+        height: 48%;
+    }
+
+    .body .gallery .gallimages .top .rite {
+        margin: 0 0 2.5em 2.3em;
+    }
+
+    .body .gallery .gallimages .top .rite .up {
+        margin-bottom: 0.7em;
+        height: 47%;
+    }
+
+    .body .gallery .gallimages .top .rite .up .imgb {
+        margin-right: 2.3em;
+    }
+
+    .body .gallery .gallimages .top .rite .dwn {
+        height: 47%;
+    }
+
+    .body .gallery .gallimages .top .rite .dwn .imge {
+        margin-left: 2.3em;
+    }
+
+    .body .gallery .gallimages .mid {
+        margin-bottom: 2.3em;
+        height: 23%;
+    }
+
+    .body .gallery .gallimages .mid .imgg {
+        margin-left: 2.1em;
+    }
+
+    .body .gallery .gallimages .bttom {
+        height: 23%;
+    }
+
+    .body .gallery .gallimages .bttom .imhg {
+        margin-right: 2.3em;
+    }
+
+    .body .questions {
+        height: 38rem;
+        top: 15.6%;
+    }
+
+    .body .questions .faq {
+        font-size: 2.5rem;
+    }
+
+    .body .questions .dropdwn1 .drop-btn1,
+    .body .questions .dropdwn2 .drop-btn2,
+    .body .questions .dropdwn3 .drop-btn3,
+    .body .questions .dropdwn4 .drop-btn4 {
+        border-radius: 1.8em;
+        padding: 0 5em;
+    }
+
+    .body .questions .dropdwn1 .drop-btn1 .drop-text1,
+    .body .questions .dropdwn2 .drop-btn2 .drop-text2, 
+    .body .questions .dropdwn3 .drop-btn3 .drop-text3,
+    .body .questions .dropdwn4 .drop-btn4 .drop-text4 {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    .body .questions .dropdwn1 .drop-btn1 i,
+    .body .questions .dropdwn2 .drop-btn2 i,
+    .body .questions .dropdwn3 .drop-btn3 i,
+    .body .questions .dropdwn4 .drop-btn4 i {
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+
+    .body .questions .dropdwn1 .paragraph1,
+    .body .questions .dropdwn2 .paragraph2,
+    .body .questions .dropdwn3 .paragraph3,
+    .body .questions .dropdwn4 .paragraph4 {
+        font-size: 1.2rem;
+        padding: 1.9em 1em 1em 3.9em;
+    }
+
+    .body .partners {
+        height: 14rem;
+        top: 18%;
+        border-radius: 40px;
+    }
+
+    .body .partners .partext {
+        height: 34%;
+        border-radius: 8px;
+        top: -16%;
+    }
+
+    .body .partners .ourpart {
+        font-size: 1.7rem;
+    }
+
+    .body .partners .partner-icon img {
+        width: 15%
+    }
+
+    .body .partners .partner-icon .gc {
+        width: 27%;
+    }
+
+    .body .partners .partner-icon .kn {
+        width: 22%;
+    }
+
+    .body .partners .partner-icon .k {
+        width: 7%;
+    }
+
+    footer {
+        top: -18%;
+        height: 25rem;
+    }
+
+    footer .bottom {
+        height: 85%;
+        top: 11.2%;
+    }
+
+    footer .bottom .tophalf {
+        height: 75%;
+        top: 0;
+    }
+
+    footer .bottom .btmhalf {
+        height: 10%;
+    }
+
+    footer .bottom .tophalf .contact .gel {
+        width: 12rem;
+        height: 4rem;
+    }
+
+    footer .bottom .tophalf .contact .gel img{
+        margin-right: 0.2;
+    }
+
+    footer .bottom .tophalf .contact .gel .ge-t {
+        font-size: 1.2rem;
+        line-height: 1.1em;
+        font-weight: 500;
+        letter-spacing: 0;
+    }
+
+    footer .bottom .tophalf .contact .abt1,
+    footer .bottom .tophalf .contact .abt2 {
+        top: 49%;
+    }
+    
+    footer .bottom .tophalf .contact .abt1 li {
+        font-size: 1rem;
+        line-height: 1em;
+        margin: 0 2.7em 1.1em 0;
+    }
+
+    footer .bottom .tophalf .contact .abt2 li {
+        font-size: 1rem;
+        line-height: 1em;
+        margin: 0 4.5em 0.5em 0;
+    }
+
+    footer .bottom .tophalf .contactus {
+        width: 25%;
+        left: 5%;
+    }
+
+    footer .bottom .tophalf .contactus .cntus {
+        font-size: 1.1rem;
+    }
+
+    footer .bottom .tophalf .contactus .addr {
+        font-size: 0.9rem;
+    }
+
+    footer .bottom .thin-bar {
+        top: 3%;
+    }
+
+    footer .bottom .btmhalf {
+        top: 8%;
+    }
+
+    footer .bottom .btmhalf .copyrt .c {
+        font-size: 1.2rem;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    footer .bottom .btmhalf .copyrt .cget {
+        font-size: 1.1rem;
+        font-weight: 200;
+        letter-spacing: 0.10em;
+    }
+
+    footer .bottom .btmhalf .social {
+        width: 16%;
+        left: 51.6%;
+    }
+
+    footer .bottom .btmhalf .social li {
+        margin-left: 1em;
+    }
+
+    footer .bottom .btmhalf .social li a{
+        font-size: 2em;
+    }
 
 }
+
+@media (max-width: 1440px) {
+    
+}
+
+
+
