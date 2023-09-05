@@ -2,7 +2,6 @@
 
 @media (max-width: 1440px) {
     header nav {
-        position: relative;
         height: 70%;   
     }
 
@@ -87,7 +86,7 @@
     section .split-col .left .text-container .apply {
         height: 18.5%;
         width: 34%;
-        font-size: 1.2rem;
+        font-size: 1.2em;
         border-radius: 17px;
         top: 20%;
     }
@@ -213,6 +212,11 @@
         font-size: 2.5rem;
     }
 
+    .body .six-container .col-1 .box1:hover,
+    .body .six-container .col-2 .box1:hover{
+        transform: scale(1.010);
+}
+
     .body .testimonial {
         height: 35rem;
         top: 12%;
@@ -282,7 +286,7 @@
 
     .body .gallery .gallimages {
         width: 81%;
-        height: 88%;
+        height: 85%;
         top: 7.2%;
     }
 
@@ -328,6 +332,18 @@
     .body .gallery .gallimages .bttom .imhg {
         margin-right: 2.3em;
     }
+
+    .body .gallery .gallimages .top img:hover,
+    .body .gallery .gallimages .top .rite .up .imgb:hover,
+    .body .gallery .gallimages .top .rite .up .imgc:hover,
+    .body .gallery .gallimages .top .rite .dwn .imgd:hover,
+    .body .gallery .gallimages .top .rite .dwn .imge:hover,
+    .body .gallery .gallimages .mid .imgf:hover,
+    .body .gallery .gallimages .mid .imgg:hover,
+    .body .gallery .gallimages .bttom .imgh:hover,
+    .body .gallery .gallimages .bttom .imgi:hover{
+        transform: scale(1.010);
+}
 
     .body .questions {
         height: 38rem;
@@ -476,7 +492,7 @@
     }
 
     footer .bottom .btmhalf .copyrt .c {
-        font-size: 1.2rem;
+        font-size: 1rem;
         width: 1.8rem;
         height: 1.8rem;
     }
@@ -502,9 +518,881 @@
 
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1366px) {
+    header nav .rect {
+        max-height: 15.5%;
+        height: 100%;
+    }
+
+    header nav .detbx {
+        max-height: 15.5%;
+        height: 100%;
+        top: -15.5%;
+    }
+
+    header nav .welnote .headtxt {
+        font-size: 1rem;
+    }
+
+    header nav .welnote .getrust {
+        font-size: 2.3rem;
+    }
+
+    header nav .welnote {
+        top: 11%;
+    }
+
+    section {
+        height: 55rem;
+    }
+
+    section .split-col .left .text-container .apply {
+        font-size: 1.1rem;
+    }
+
+    section .reach .rcontainer .progress {
+        font-size: 2.3rem;
+    }
+
+    section .reach .rcontainer .explan{
+        margin-top: 0.5em;
+    }
+
+    section .reach .rcontainer .explan p{
+        font-size: 1.1rem;
+    }
+
+    .body {
+        height: 385rem;
+    }
+
+    .body .cslide {
+        height: 25rem;
+        top: 3.7%;
+    }
+
+    .body .cslide .cohort {
+        font-size: 2.3rem;
+    }
+
+    .body .cslide .sample-slider [class^="swiper-button-"]::after{
+        font-size: 1.7rem;
+    }
+
+    .body .square {
+        top: 5.4%;
+        height: 42rem;
+        width: 75%;
+    }
+
+    .body .square .glog {
+        width: 4.5rem;
+    }
     
+    .body .square .get {
+        font-size: 1.4rem;
+    }
+    
+    .body .square .loadbar {
+        width: 83%;
+    }
+
+    .body .grant-img {
+        top: 7%;
+        height: 31rem;
+    }
+
+    .body .grant-img .ourg {
+        font-size: 2.3rem;
+        top: 3%
+    }
+
+    .body .grant-img .tri-slide {
+        width: 93%;
+    }
+
+    .body .grant-img .bbar {
+        height: 0.15rem;
+    }
+
+    .body .six-container {
+        max-height: 45.2rem;
+        width: 86%;
+        top: 8.6%;
+    }
+
+    .body .six-container .who {
+        font-size: 2.3rem;
+    }
+
+    .body .testimonial {
+        height: 31rem;
+        top: 11.6%;
+    }
+
+    .body .testimonial .textimony {
+        font-size: 2.3rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed p{
+        font-size: 1.05rem;
+        margin-bottom: 1em;
+    }
+    .body .testimonial .sample-slider1 [class^="swiper-button-"]::after{
+        font-size: 1.5rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user {
+        top: 0;
+    }
+    
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .userpic {
+        width: 3rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .dash {
+        left: 2%;
+        width: 11%;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .username {
+        font-size: 0.8rem;
+        left: 4%;
+    }
+
+    .body .gallery {
+        height: 88rem;
+        top: 13.7%;
+    }
+
+    .body .gallery .galltext {
+        font-size: 2.3rem;
+    }
+
+    .body .gallery .gallimages {
+        top: 6.8%;
+        width: 79%;
+        height: 84%;
+    }
+
+    .body .questions {
+        height: 35rem;
+        top: 14.2%;
+    }
+
+    .body .questions .faq {
+        font-size: 2.3rem;
+    }
+
+    .body .questions .dropdwn1 .drop-btn1 .drop-text1,
+    .body .questions .dropdwn2 .drop-btn2 .drop-text2, 
+    .body .questions .dropdwn3 .drop-btn3 .drop-text3,
+    .body .questions .dropdwn4 .drop-btn4 .drop-text4 {
+        letter-spacing: 0;
+    }
+
+    .body .questions .dropdwn1 .drop-btn1 i,
+    .body .questions .dropdwn2 .drop-btn2 i,
+    .body .questions .dropdwn3 .drop-btn3 i,
+    .body .questions .dropdwn4 .drop-btn4 i{
+        transition: 0.3s;
+    }
+
+    .body .questions .dropdwn1 .paragraph1,
+    .body .questions .dropdwn2 .paragraph2,
+    .body .questions .dropdwn3 .paragraph3,
+    .body .questions .dropdwn4 .paragraph4 {
+        font-size: 1.1rem;
+        padding: 2em 1em 2em 4.5em;
+    }
+
+    .body .partners {
+        height: 12.5rem;
+        top: 16.7%;
+    }
+
+    .body .partners .partext {
+        height: 34%;
+    }
+
+    .body .partners .ourpart {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        top: -32%;
+        height: 23rem;
+    }
+
+    footer .bottom .tophalf .contact .gel {
+        width: 11rem;
+        height: 3.7rem;
+    }
+
+    footer .bottom .tophalf .contact .gel .ge-t {
+        font-size: 1.1rem;
+    }
+
+    footer .bottom .tophalf .contact .abt1,
+    footer .bottom .tophalf .contact .abt2 {
+        top: 46%;
+    }
+
+    footer .bottom .tophalf .contact .abt1 li {
+        font-size: 0.9rem;
+        line-height: 1em;
+        margin: 0 3.1em 1.1em 0;
+    }
+
+    footer .bottom .tophalf .contact .abt2 li {
+        font-size: 0.9rem;
+        line-height: 1em;
+        margin: 0 5.1em 0.5em 0;
+    }
+
+    footer .bottom .tophalf .contactus .cntus {
+        letter-spacing: 0;
+    }
+
+    footer .bottom .tophalf .contactus .addr {
+        font-size: 0.8rem;
+    }
+
+    footer .bottom .btmhalf .copyrt .c {
+        font-size: 0.9rem;
+    }
+
+    footer .bottom .btmhalf .copyrt .cget {
+        font-size: 1.1rem;
+        letter-spacing: 0;
+    }
+
+    footer .bottom .btmhalf .social {
+        left: 52%;
+    }
+
 }
 
 
 
+@media (max-width: 1280px) {
+    header nav .rect {
+        max-height: 17%;
+        height: 100%;
+    }
+
+    header nav .detbx {
+        max-height: 17%;
+        height: 100%;
+        top: -17%;
+    }
+
+    header nav .detbx .basicnav li {
+        font-size: 0.8rem;
+    }
+
+    header nav .detbx .logo {
+        height: 85%;
+    }
+
+    header nav .detbx .logo .getlo {
+        width: 1.5rem;
+    }
+
+    header nav .detbx .logo .miniget {
+        font-size: 0.5rem;
+    }
+
+    header nav .detbx .signup {
+        font-size: 0.6rem;
+    }
+
+    header nav .welnote .headtxt {
+        font-size: 0.8rem;
+    }
+
+    header nav .welnote .getrust {
+        font-size: 2.1rem;
+    }
+
+    section {
+        height: 50rem;
+    }
+
+    section .split-col .left .text-container {
+        width: 70%;
+        height: 70%;
+        top: 15%;
+        left: 5%;
+    }
+
+    section .split-col .left .text-container .grant1 {
+        font-size: 1.5rem;
+    }
+
+    section .split-col .left .text-container .grant2 {
+        font-size: 1rem;
+        line-height: 1.5em;
+        top: 14;
+    }
+
+    section .split-col .left .text-container .apply {
+        width: 33%;
+        font-size: 1rem;
+        border-radius: 14px;
+        top: 19%;
+        height: 18%;
+    }
+
+    section .reach .rcontainer .progress {
+        font-size: 2.1rem;
+    }
+
+    section .reach .rcontainer .explan p{
+        font-size: 1rem;
+    }
+
+    .body {
+        height: 368rem;
+    }
+
+    .body .cslide {
+        height: 24.5rem;
+        top: 3.7%;
+    }
+
+    .body .cslide .cohort {
+        font-size: 2.1rem;
+    }
+
+    .body .square {
+        top: 5.5%;
+        height: 42rem;
+    }
+
+    .body .square .get {
+        font-size: 1.4rem;
+    }
+
+    .body .grant-img {
+        top: 7.4%;
+        height: 31rem;
+    }
+
+    .body .grant-img .ourg {
+        font-size: 2.1rem;
+    }
+
+    .body .grant-img .tri-slide .med-grant .med {
+        font-size: 1rem;
+    }
+
+    .body .six-container {
+        max-height: 49rem;
+        height: 100%;
+        top: 9%;
+    }
+
+    .body .six-container .who {
+        font-size: 2.1rem;
+    }
+
+    .body .six-container .col-1,
+    .body .six-container .col-2 {
+        height: 38%;
+        top: 6.7%;
+    }
+
+    .body .testimonial {
+        height: 30.5rem;
+        top: 10.5%;
+    }
+
+    .body .testimonial .textimony {
+        font-size: 2.1rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed p{
+        font-size: 1.05rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed .colon {
+        font-size: 6rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .userpic {
+        width: 3.2rem;
+        margin-left: 2.2em;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .dash {
+        margin-left: 1.8em;
+        width: 11%;
+        height: 0.15em;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .username {
+        font-size: 0.7rem;
+        margin-left: 0.8em;
+    }
+
+    .body .gallery {
+        height: 88rem;
+        top: 12.8%;
+    }
+
+    .body .gallery .galltext {
+        font-size: 2.1rem;
+    }
+
+    .body .gallery .gallimages {
+        height: 80%;
+        top: 6.6%;
+    }
+
+    .body .gallery .gallimages .top {
+        height: 47.2%;
+    }
+
+    .body .questions {
+        height: 34rem;
+        top: 11.9%;
+    }
+
+    .body .questions .faq {
+        font-size: 2.1rem;
+    }
+
+    .body .questions .dropdwn1 .drop-btn1 .drop-text1,
+    .body .questions .dropdwn2 .drop-btn2 .drop-text2, 
+    .body .questions .dropdwn3 .drop-btn3 .drop-text3,
+    .body .questions .dropdwn4 .drop-btn4 .drop-text4 {
+        font-size: 1rem;
+    }
+
+    .body .questions .dropdwn1 .paragraph1,
+    .body .questions .dropdwn2 .paragraph2,
+    .body .questions .dropdwn3 .paragraph3,
+    .body .questions .dropdwn4 .paragraph4 {
+        font-size: 1rem;
+        padding: 2em 1em 2em 5em;
+    }
+
+    .body .partners {
+        height: 12rem;
+        top: 14.4%;
+    }
+
+    .body .partners .partext {
+        height: 33%;
+        width: 22%;
+    }
+
+    .body .partners .ourpart {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        top: -18%;
+        height: 21rem;
+    }
+
+    footer .bottom .tophalf .contact .gel {
+        width: 10rem;
+        height: 3.3rem;
+    }
+
+    footer .bottom .tophalf .contact .gel .ge-t {
+        font-size: 1.05rem;
+        bottom: 0.1em;
+    }
+
+    footer .bottom .tophalf .contactus .addr {
+        font-size: 0.9rem;
+        line-height: 1.3em;
+    }
+
+    footer .bottom .thin-bar {
+        top: 0.7%;
+
+    }
+
+    footer .bottom .btmhalf .copyrt .c {
+        font-size: 0.7rem;
+    }
+
+    footer .bottom .btmhalf .copyrt .cget {
+        font-size: 1rem;
+    }
+
+    footer .bottom .tophalf .contactus {
+        width: 22%;
+        left: 8%;
+    }
+
+    footer .bottom .tophalf .contactus .addr {
+        font-size: 0.75rem;
+        line-height: 1.5em;
+    }
+
+    footer .bottom .btmhalf .social {
+        left: 54%;
+        width: 17%;
+    }
+
+    footer .bottom .btmhalf .social li a{
+        font-size: 1.8em;
+    }
+    
+}
+
+
+@media (max-width: 1024px) {
+
+    header nav .detbx .basicnav {
+        font-size: 0.7rem;
+        right: 5%;
+    }
+
+    header nav .detbx .basicnav li {
+        font-size: 0.7rem;
+    }
+
+    header nav .detbx .signup {
+        width: 14%;
+    }
+
+    header nav .welnote {
+        top: 18%;
+    }
+
+    header nav .welnote .headtxt {
+        font-size: 0.7rem;
+        line-height: 1.5em;
+    }
+
+    header nav .welnote .getrust {
+        font-size: 1.9rem;
+    }
+
+    section {
+        height: 40rem;
+    }
+
+    section .split-col .left .text-container {
+        width: 60%;
+        top: 16%;
+    }
+
+    section .split-col .left .text-container .grant1 {
+        font-size: 1.1rem;
+    }
+
+    section .split-col .left .text-container .grant2 {
+        font-size: 0.8rem;
+    }
+
+    section .split-col .left .text-container .apply {
+        width: 37%;
+        font-size: 0.8rem;
+        border-radius: 14px;
+        top: 18%;
+        height: 19%;
+        border-radius: 12px;
+    }
+
+    section .reach .rcontainer {
+        top: -83%;
+    }
+
+    section .reach .rcontainer .progress {
+        font-size: 1.9rem;
+    }
+
+    section .reach .rcontainer .explan {
+        margin-top: 0;
+    }
+
+    section .reach .rcontainer .explan p{
+        font-size: 0.8rem;
+    }
+
+    .body {
+        height: 305rem;
+        top: -3rem;
+    }
+
+    .body .cslide {
+        height: 19rem;
+        top: 2.8%;
+    }
+
+    .body .cslide .cohort {
+        font-size: 1.9rem;
+    }
+
+    .body .square {
+        top: 4.6%;
+        height: 37rem;
+    }
+
+    .body .square .loadbar {
+        height: 0.5%;
+    }
+
+    .body .square .glog {
+        width: 4rem;
+    }
+
+    .body .square .get {
+        font-size: 1.1rem;
+    }
+
+    .body .grant-img {
+        top: 6.2%;
+        height: 25rem;
+    }
+
+    .body .grant-img .ourg {
+        font-size: 1.9rem;
+    }
+
+    .body .grant-img .tri-slide .med-grant{
+        border-radius: 0.6em;
+    }
+
+    .body .grant-img .tri-slide .med-grant img{
+        border-radius: 0.6em;
+    }
+
+    .body .grant-img .tri-slide .med-grant .med {
+        font-size: 0.8rem;
+
+    }
+
+    .body .grant-img .tri-slide .med-grant .afg {
+        font-size: 0.5rem;
+    }
+
+    .body .grant-img .bbar {
+        height: 0.5%;
+    }
+
+    .body .six-container {
+        max-height: 35rem;
+        height: 100%;
+        top: 7.8%;
+    }
+
+    .body .six-container .who {
+        font-size: 1.9rem;
+    }
+
+    .body .six-container .col-1,
+    .body .six-container .col-2 {
+        height: 42.6%;
+    }
+
+    .body .testimonial {
+        height: 24rem;
+        top: 9.7%;
+    }
+
+    .body .testimonial .textimony {
+        font-size: 1.9rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed p{
+        font-size: 0.8rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .userfeed .colon {
+        font-size: 5rem;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .userpic {
+        width: 12%;
+        margin-left: 1.9em;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .dash {
+        margin-left: 1.6em;
+        width: 11%;
+        height: 0.10em;
+    }
+
+    .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .username {
+        font-size: 0.6rem;
+        margin-left: 0.8em;
+    }
+
+    .body .testimonial .sample-slider1 [class^="swiper-button-"]::after{
+        font-size: 1.4rem;
+    }
+
+    .body .testimonial .sample-slider1 [class^="swiper-button-"]{
+        bottom: 3%;
+    }
+
+    .body .gallery {
+        height: 68rem;
+        top: 11.3%;
+    }
+
+    .body .gallery .galltext {
+        font-size: 1.9rem;
+    }
+
+    .body .gallery .gallimages {
+        height: 90%;
+        width: 83%;
+        top: 5%;
+    }
+
+    .body .gallery .gallimages .top {
+        height: 46%;
+        margin-bottom: 2em;
+    }
+
+    .body .gallery .gallimages .top .rite {
+        margin: 0 0 2em 2em;
+    }
+
+    .body .gallery .gallimages .mid {
+        width: 100%;
+        height: 22%;
+        margin-bottom: 2em;
+    }
+
+    .body .gallery .gallimages .bttom {
+        height: 22%;
+
+    }
+    .body .gallery .gallimages .top .rite .dwn .imge,
+    .body .gallery .gallimages .mid .imgg {
+        margin-left: 2em;
+    }
+    .body .gallery .gallimages .top .rite .up .imgb,
+    .body .gallery .gallimages .bttom .imgh {
+        margin-right: 2em;
+    }
+
+    .body .questions {
+        height: 28em;
+        top: 11.8%;
+    }
+
+    .body .questions .faq {
+        font-size: 1.9rem;
+    }
+
+    .body .questions .dropdwn1 .drop-btn1 .drop-text1,
+    .body .questions .dropdwn2 .drop-btn2 .drop-text2, 
+    .body .questions .dropdwn3 .drop-btn3 .drop-text3,
+    .body .questions .dropdwn4 .drop-btn4 .drop-text4 {
+        font-size: 0.8rem;
+    }
+
+    .body .questions .dropdwn1 .paragraph1,
+    .body .questions .dropdwn2 .paragraph2,
+    .body .questions .dropdwn3 .paragraph3,
+    .body .questions .dropdwn4 .paragraph4 {
+        font-size: 0.8rem;
+        padding: 2em 1em 2em 5em;
+    }
+    
+    .body .questions .dropdwn1 .drop-btn1 i,
+    .body .questions .dropdwn2 .drop-btn2 i,
+    .body .questions .dropdwn3 .drop-btn3 i,
+    .body .questions .dropdwn4 .drop-btn4 i{
+        font-size: 2rem;
+    }
+
+    .body .questions .dropdwn1 .drop-btn1,
+    .body .questions .dropdwn2 .drop-btn2,
+    .body .questions .dropdwn3 .drop-btn3,
+    .body .questions .dropdwn4 .drop-btn4 {
+        padding: 0 4em;
+        border-radius: 1.3em;
+    }
+
+    .body .partners {
+        height: 10rem;
+        border-radius: 2em;
+    }
+
+    .body .partners .partext {
+        height: 31%;
+        width: 23%;
+    }
+
+    .body .partners .ourpart {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        top: -43%;
+        height: 19rem;
+    }
+
+    footer .bottom .tophalf .contact .gel {
+        width: 9rem;
+        height: 3rem;;
+    }
+
+    footer .bottom .tophalf .contact .gel img{
+        margin-right: 0.5em;
+    }
+
+    footer .bottom .tophalf .contact .gel .ge-t {
+        font-size: 0.9rem;
+    }
+
+    footer .bottom .tophalf .contact .abt1 li,
+    footer .bottom .tophalf .contact .abt2 li {
+        font-size: 0.75rem;
+    }
+
+    footer .bottom .tophalf .contactus .cntus {
+        font-size: 0.8rem;
+    }
+
+    footer .bottom .tophalf .contactus .addr {
+        font-size: 0.6rem;
+        line-height: 1.6em;
+    }
+
+    footer .bottom .btmhalf .copyrt .c {
+        font-size: 0.7rem;
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+
+    footer .bottom .btmhalf .copyrt .cget {
+        font-size: 0.8rem;
+    }
+
+    footer .bottom .btmhalf .social {
+        left: 53%;
+    }
+
+    footer .bottom .btmhalf .social li a{
+        font-size: 1.5em;
+    }
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+}
