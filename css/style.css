@@ -32,7 +32,7 @@ header nav .rect {
     width: 100%;
     border: 0.5px solid #808080;
     box-sizing: border-box;
-    border-radius: 50px;
+    border-radius: 4em;
     background-color: rgba(255, 255 255, 0.2);
     backdrop-filter: blur(15px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -50,7 +50,7 @@ header nav .detbx {
     align-items: center;
     z-index: 9999;
     top: -17%;
-    border-radius: 50px;
+    border-radius: 4em;
 }
 
 header nav .detbx .logo {
@@ -79,6 +79,7 @@ header nav .detbx .logo .miniget{
     font-size: 1rem;
     line-height: 1.3em;
 }
+
 
 header nav .detbx .basicnav {
     position: relative;
@@ -177,7 +178,7 @@ section .split-col .left{
     background: #e2adeb;
     width: 50%;
     height: 100%;
-    border-right: 0.5em solid #210325;
+    border-right: 0.7em solid #210325;
     box-sizing: border-box;
 }
 
@@ -368,6 +369,7 @@ section .reach .rcontainer .explan p{
     font-weight: 100;
     opacity: 70%;
 }
+
 .body .cslide .sample-slider [class^="swiper-button-"]:hover::after{
     color: #a407c2;
 }
@@ -399,7 +401,7 @@ section .reach .rcontainer .explan p{
 
 .body .square .glog {
     position: relative;
-    width: 9rem;
+    width: 8%;
     margin: auto;
     top: 37%;
     box-sizing: border-box;
@@ -424,14 +426,14 @@ section .reach .rcontainer .explan p{
 .body .square .loadbar {
     position: relative;
     margin: auto;
-    height: 0.5rem;
-    width: 83%;
+    height: 0.6%;
+    width: 84%;
     background-color: #2c2c2c;
-    top: 75%;
+    top: 74%;
 }
 
 .body .square .loadbar .load{
-    width: 90%;
+    width: 93%;
     background-color: red;
     height: 100%;
 }
@@ -517,7 +519,7 @@ section .reach .rcontainer .explan p{
 
 .body .grant-img .bbar {
     position: relative;
-    width: 70%;
+    width: 74%;
     height: 0.2rem;
     background-color: #FF72D0;
     margin: auto;
@@ -658,17 +660,17 @@ section .reach .rcontainer .explan p{
 
 .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .userpic {
     position: relative;
-    margin-left: 4.4em;
+    left: 8%;
     border-radius: 50%;
-    width: 5.3rem;
+    width: 12%;
 }
 
 .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .dash {
     position: relative;
     height: 0.3em;
-    width: 4.5em;
+    width: 10%;
     background-color: #fff;
-    margin-left: 4em;
+    left: 15%;
 }
 
 .body .testimonial .sample-slider1 .swiper-wrapper .swiper-slide .user .username {
@@ -676,7 +678,7 @@ section .reach .rcontainer .explan p{
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    margin-left: 0.7em;
+    left: 18%;
 }
 
 .body .testimonial .sample-slider1 [class^="swiper-button-"]::after{
@@ -1081,7 +1083,7 @@ footer .bottom .tophalf {
     position: relative;
     display: flex;
     width: 80%;
-    height: 25rem;
+    height: 63%;
     margin: auto;
     box-sizing: border-box;
     top: 10.5%;
@@ -1096,9 +1098,9 @@ footer .bottom .tophalf .contact {
 footer .bottom .tophalf .contact .gel {
     position: relative;
     display: flex;
-    width: 20rem;
+    width: 22%;
+    height: 27%;
     justify-content: center;
-    height: 6.5rem;
     box-sizing: border-box;
     padding: auto;
 }
@@ -1206,7 +1208,7 @@ footer .bottom .btmhalf {
     position: relative;
     display: flex;
     width: 80%;
-    height: 5rem;
+    height: 12%;
     margin: auto;
     box-sizing: border-box;
     top: 21%;
@@ -1218,6 +1220,8 @@ footer .bottom .btmhalf .copyrt {
     display: flex;
     align-items: center;
     color: #fff;
+    width: 50%;
+    height: 100%;
 }
 
 footer .bottom .btmhalf .copyrt .c{
@@ -1225,13 +1229,14 @@ footer .bottom .btmhalf .copyrt .c{
     display: flex;
     border-radius: 50px;
     border: 1px solid #fff;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.5%;
+    height: 30%;
     font-size: 1.8em;
     font-family: 'Poppins', sans-serif;
     align-items: center;
     justify-content: center;
     font-weight: 300;
+    padding: 0.5em;
 }
 
 footer .bottom .btmhalf .copyrt .cget {
@@ -1248,7 +1253,7 @@ footer .bottom .btmhalf .social {
     position: relative;
     box-sizing: border-box;
     width: 15.8%;
-    height: 3.2rem;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
