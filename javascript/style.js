@@ -34,8 +34,8 @@ selectBtn4.addEventListener("click", () => optionMenu4.classList.toggle("active"
 
 
 const swiper = new Swiper('.sample-slider', {
-    slidesPerView: 4,
-    spaceBetween: 40,
+    slidesPerView: 3,
+    spaceBetween: 10,
     loop: true,                         //loop
     autoplay: {                         //autoplay
         delay: 2000,  
@@ -53,16 +53,20 @@ const swiper = new Swiper('.sample-slider', {
         2560: {
             width: 2560,
             slidesPerView: 4,
+            spaceBetween: 10,
         },
 
         1440: {
             width: 1440,
-            slidesPerView: 3.5,
+            slidesPerView: 3,
+            spaceBetween: 10,
         },
 
-        // 520: {
-        //     slidesPerView: 2;
-        // },
+        810: {
+            width: 810,
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
 
         // 950: {
         //     slidesPerView: 3;
@@ -82,7 +86,7 @@ const swiper = new Swiper('.sample-slider', {
 
 const swiper1 = new Swiper('.sample-slider1', {
         slidesPerView: 3,
-        spaceBetween: 20,
+        spaceBetween: 10,
         loop: true,                         //loop
         autoplay: {                         //autoplay
             delay: 2000,  
@@ -95,5 +99,26 @@ const swiper1 = new Swiper('.sample-slider1', {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+
+    })
+
+
+
+
+const hamburger = document.querySelector(".hamburger"); 
+const navMenu = document.querySelector(".nav-menu");
+
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
 })
+
+//  to made the menu  close when a link is selected
+
+document.querySelectorAll(".nav-link").forEach(n => n.
+addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
     
